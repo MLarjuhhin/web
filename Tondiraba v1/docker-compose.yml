@@ -1,0 +1,20 @@
+version: '3'
+services:
+  web:
+    image: nginx:stable-alpine
+    volumes:
+        - "./htdocs:/home/hosting/tondiraba.edu.ee/htdocs"
+        - "./etc/nginx/default.template.conf:/etc/nginx/conf.d/default.template"
+        - "./etc/nginx/default.conf:/etc/nginx/conf.d/default.conf"
+    command: /bin/sh -c "envsubst 'localhost' < /etc/nginx/conf.d/default.template > /etc/nginx/conf.d/default.conf && nginx -g 'daemon off;' "
+    ports:
+      - "8000:80"
+    environment:
+      - NGINX_HOST=localhost
+    restart:  always
+  php:
+    image: nanoninja/php-fpm:latest
+    restart:  always
+    volumes:
+        - "./htdocs:/home/hosting/tondiraba.edu.ee/htdocs"
+    
