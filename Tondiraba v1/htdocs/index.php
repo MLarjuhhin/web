@@ -1,7 +1,7 @@
 <?php
 var_dump($_POST);
 if(!empty($_POST) ){
-    
+
     echo "<br><hr><br>";
     $x=$_POST['a'];
     $y=$_POST["b"];
@@ -39,6 +39,13 @@ if(!empty($_POST) ){
     <body>
 <form method="POST" action="">
         <input type="text" name="a" value="<?=$x?>">
+        <select name='select'>
+            <option value="non"></option>  
+            <option value="plus">+</option>
+            <option value="minus">-</option>
+            <option value="division">/</option>
+            <option value="multiplication">*</option>    
+        </select>
         <input type="text" name="b" value="<?=$y?>">
         <input type="submit">
 </form>
