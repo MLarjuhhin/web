@@ -36,11 +36,13 @@ if(!empty($_POST) ){
 ?>
 <br>
 <html>
+
+
     <body>
 <form method="POST" action="">
         <input type="text" name="a" value="<?=$x?>">
         <select name='select'>
-            <option value="non"></option>  
+            <option value=""></option>  
             <option value="plus">+</option>
             <option value="minus">-</option>
             <option value="division">/</option>
