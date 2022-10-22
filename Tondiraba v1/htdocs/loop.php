@@ -36,27 +36,71 @@ $array=[
 		'Vika'],
 	'maxUserCount'=>15
 ];
-
+//$NeMassiv=123;
 $array['courseName']='Veeb';
-$array['room']='327';
-$array['dateStart']='17:40';
-$array['dateEnd']='19:10';
-$array['students']=[
-	'maksim','Vitalik','Slava','Egor'
-];
+//echo $array['courseName'];
+//$array['room']='327';
+//$array['dateStart']='17:40';
+//$array['dateEnd']='19:10';
+$array['courseName']='3D';
+//echo "<br>";
+//echo $array['courseName'];
 
-foreach ($array as $key =>$value){
-	if(!is_array($value)){
-		echo "KEY:".$key.", VALUE:".$value."<br>";
-	}else {
-		continue;
-//		echo "KEY:".$key.":<br>";
-//		foreach ($value as $v) {
-//			echo $v."<br>";
-//		}
+//$array['students']=[
+//	'maksim','Vitalik','Slava','Egor'
+//];
+
+$x=1;
+//foreach ($array as $key =>$value){
+//	if(!is_array($value)){
+//		echo "KEY:".$key.", VALUE:".$value."<br>";
+//	}else {
+//		continue;
+//	}
+//	echo $x."<br>";
+//	$x++;
+//}
+
+//for($i=1;$i<=$i_nr;$i++){
+// //   echo "<b>".$i."</b><br>";
+//    for($x=1;$x<=$x_nr;$x++){
+//
+//        echo $i*$x.'<br>';
+//    }
+//}
+
+//$students=[
+//	9=>'maksim',
+//	'Ilja',
+//	4=>'Kirill',
+//	'Anita',
+//	'Karl',
+//	1=>'Vika',
+//	'Marat'
+//];
+//var_dump($students);
+//for ($x=0;$x<=array_key_last($students);$x++) {
+//	echo "KEY:".$x.", VALUE:".$students[$x]."<br>";
+//}
+
+
+
+
+for($i=1;$i<11;$i++)
+{
+	//echo "i=".$i.'::::'.$i%2 .'::::' ;
+	if($i % 2) {
+	//	echo $i;
+	}else{
+		echo $i;
 	}
+	echo '<br>';
+
 }
-echo "\n end file";
+
+
+
+echo "\n<br> end file";
 
 
 
