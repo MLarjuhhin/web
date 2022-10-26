@@ -86,17 +86,21 @@ $x=1;
 
 
 
-for($i=1;$i<11;$i++)
+for($i=0;$i<=3;$i++)
 {
-	//echo "i=".$i.'::::'.$i%2 .'::::' ;
-	if($i % 2) {
-	//	echo $i;
-	}else{
-		echo $i;
-	}
-	echo '<br>';
+		for($y=0;$y<=$i;$y++) {
+			echo "*";
+		}
 
+//	//echo "i=".$i.'::::'.$i%2 .'::::' ;
+//	if($i % 2) {
+//	//	echo $i;
+//	}else{
+//		echo $i;
+//	}
+	echo "<br>";
 }
+
 
 
 
