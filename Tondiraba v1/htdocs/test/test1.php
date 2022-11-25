@@ -1,29 +1,24 @@
 <?php
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
+include 'func.php';
 
-$symbol='eee';
-$x=3;
-$y=2;
+// TODO Сделайте функцию, которая возвращает куб числа. Число передается параметром
+if(!empty($_POST)){
+	echo cube($_POST['a']);
 
-switch($symbol){
-	case 'minus':
-		echo $x."-".$y."= ".($x-$y);
-		$selected=$symbol;
-		break;
-	case 'plus':
-		echo $x."+".$y."= ".($x+$y);
-		$selected=$symbol;
-		break;
-	case 'division':
-		echo $x."/".$y."= ".$x/$y;
-		$selected=$symbol;
-		break;
-	case 'multiplication':
-		echo  $x."*".$y."= ".$x*$y;
-		$selected=$symbol;
-		break;
 }
 
-var_dump($selected);
+function cube($num)
+{
+	$h = $num * $num * $num;
+	return $h;
+}
+
+
+
+?>
+<form method="POST">
+	<input type="text" name="a">
+	<input type="submit">
+</form>
+
+
