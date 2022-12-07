@@ -3,6 +3,9 @@ define('LOGIN', 'asd');
 define('PASSWORD', '123');
 
 if (!empty($_POST)) {
+
+    $data=file('logs/registration.csv');
+    var_dump($data);
 	write_log('attemps',$_POST);
 	if (!empty($_POST['login']) && !empty($_POST['password'])) {
 		if ($_POST['login'] == LOGIN && $_POST['password'] == PASSWORD) {
