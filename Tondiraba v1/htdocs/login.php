@@ -5,7 +5,16 @@ define('PASSWORD', '123');
 if (!empty($_POST)) {
 
     $data=file('logs/registration.csv');
-    var_dump($data);
+
+    foreach ($data as $str){
+		$arr=explode(';',$str);
+
+        var_dump($arr[1]);
+        var_dump($arr[0]);
+             break;
+    }
+
+    echo " <br><br><br><br>";
 	write_log('attemps',$_POST);
 	if (!empty($_POST['login']) && !empty($_POST['password'])) {
 		if ($_POST['login'] == LOGIN && $_POST['password'] == PASSWORD) {
@@ -29,6 +38,7 @@ if (!empty($success) && empty($error)) {
 	echo $success;
 } else {
 	?>
+
     <form action="" method="POST">
 
         <input type="text" name="login">
