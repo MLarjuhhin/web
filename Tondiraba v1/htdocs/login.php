@@ -7,10 +7,11 @@ if (!empty($_POST)) {
     $data=file('logs/registration.csv');
 
     foreach ($data as $str){
-		$arr=explode(';',$str);
+		$arr=explode(';',trim($str));
 
-        var_dump($arr[1]);
-        var_dump($arr[0]);
+		var_dump($arr[1]);
+
+		var_dump($arr[0]);
              break;
     }
 
