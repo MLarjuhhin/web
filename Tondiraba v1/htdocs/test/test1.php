@@ -1,24 +1,10 @@
 <?php
-include 'func.php';
+$data=[];
 
-// TODO Сделайте функцию, которая возвращает куб числа. Число передается параметром
-if(!empty($_POST)){
-	echo cube($_POST['a']);
+foreach($data as $str)
 
+
+
+foreach ($data as $str) {
+		$value = $value * 2;
 }
-
-function cube($num)
-{
-	$h = $num * $num * $num;
-	return $h;
-}
-
-
-
-?>
-<form method="POST">
-	<input type="text" name="a">
-	<input type="submit">
-</form>
-
-

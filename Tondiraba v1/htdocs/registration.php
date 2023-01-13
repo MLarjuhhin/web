@@ -77,13 +77,39 @@ function write_log($filename, $data)
 
 function registration($data)
 {
+    //0 -   userID
+    //1 -   login
+    //2 -   password
+    //3 -   email
+    //4 -   phone
+    //5 -   first name
+    //6 -   last name
+    //7 -   create_at
+    //8 -   update_at
+    //9 -   delete_at
+
+    //  isikukood
+    //  maakond
+    //  vald
+    //  kula
+    //  street
+    //  index
+
+
+
+
 	$save_data = implode(';', $data);
 	$filename = 'logs/registration.csv'; // создаем имя файла и указываем папку
 	//сохраняем нового пользователя
 	return file_put_contents($filename, $save_data."\n", FILE_APPEND);
-
 }
-
+function getLastUserID(){
+	$data = file('logs/registration.csv');
+    $end=end($data);
+    $user=explode(';',$end);
+    return $user[0]+1;
+}
+var_dump(getLastUserID());
 ?>
 
 </body>

@@ -1,0 +1,51 @@
+version: '3'
+services:
+  web:
+    image: nginx:stable-alpine
+    volumes:
+        - "./htdocs/admin:/home/hosting/koppee.ee/htdocs/admin"
+        - "./htdocs/api:/home/hosting/koppee.ee/htdocs/api"
+        - "./htdocs/www:/home/hosting/koppee.ee/htdocs/www"
+
+        - "./etc/nginx/default.template.conf:/etc/nginx/conf.d/default.template"
+        - "./etc/nginx/default.conf:/etc/nginx/conf.d/default.conf"
+    command: /bin/sh -c "envsubst 'localhost' < /etc/nginx/conf.d/default.template > /etc/nginx/conf.d/default.conf && nginx -g 'daemon off;' "
+    ports:
+      - "8000:80"
+    environment:
+      - NGINX_HOST=localhost
+    restart:  always
+  php:
+    image: nanoninja/php-fpm:latest
+    restart:  always
+    volumes:
+      - "./htdocs/admin:/home/hosting/koppee.ee/htdocs/admin"
+      - "./htdocs/api:/home/hosting/koppee.ee/htdocs/api"
+      - "./htdocs/www:/home/hosting/koppee.ee/htdocs/www"
+  mysqldb:
+    image: mysql:8.0
+    container_name: mysqldb
+    restart: always
+    environment:
+      - MYSQL_DATABASE=koppee_db
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_USER=main
+      - MYSQL_PASSWORD=root
+    ports:
+      - "8181:3306"
+    volumes:
+      - "./data/db/mysql:/var/lib/mysql"
+  myadmin:
+    image: phpmyadmin/phpmyadmin:latest
+    container_name: phpmyadmin
+    ports:
+      - "8888:80"
+    environment:
+      - PMA_ARBITRARY=1
+      - PMA_HOST=mysqldb
+    restart: always
+    depends_on:
+      - mysqldb
+
+
+    

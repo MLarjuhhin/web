@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3b5508e5-cb33-48e0-8261-09df5193ddc5" name="Changes" comment="14.12">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Lessons.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/auto.cnf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/blog/db.opt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/ca-key.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/ca.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/client-cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/client-key.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/ib_buffer_pool" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/ib_logfile0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/ib_logfile1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/ibdata1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/columns_priv.MYD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/columns_priv.MYI" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/columns_priv.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/db.MYD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/db.MYI" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/db.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/db.opt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/engine_cost.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/engine_cost.ibd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/event.MYD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/event.MYI" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/event.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/func.MYD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/func.MYI" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/func.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/general_log.CSM" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/general_log.CSV" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/general_log.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/gtid_executed.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/gtid_executed.ibd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/help_category.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/help_category.ibd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/help_keyword.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/help_keyword.ibd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/help_relation.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/help_relation.ibd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/help_topic.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/help_topic.ibd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/innodb_index_stats.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/innodb_index_stats.ibd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/innodb_table_stats.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/innodb_table_stats.ibd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/ndb_binlog_index.MYD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/ndb_binlog_index.MYI" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/ndb_binlog_index.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/plugin.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/plugin.ibd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/proc.MYD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/proc.MYI" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/proc.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/procs_priv.MYD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/procs_priv.MYI" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/procs_priv.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/proxies_priv.MYD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/proxies_priv.MYI" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/proxies_priv.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/server_cost.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/server_cost.ibd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/servers.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/servers.ibd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/slave_master_info.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/slave_master_info.ibd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/slave_relay_log_info.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/slave_relay_log_info.ibd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/slave_worker_info.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/slave_worker_info.ibd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/slow_log.CSM" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/slow_log.CSV" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/slow_log.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/tables_priv.MYD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/tables_priv.MYI" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/tables_priv.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/time_zone.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/time_zone.ibd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/time_zone_leap_second.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/time_zone_leap_second.ibd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/time_zone_name.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/time_zone_name.ibd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/time_zone_transition.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/time_zone_transition.ibd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/time_zone_transition_type.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/time_zone_transition_type.ibd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/user.MYD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/user.MYI" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/mysql/user.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/accounts.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/cond_instances.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/db.opt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/events_stages_current.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/events_stages_history.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/events_stages_history_long.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/events_stages_summary_by_account_by_event_name.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/events_stages_summary_by_host_by_event_name.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/events_stages_summary_by_thread_by_event_name.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/events_stages_summary_by_user_by_event_name.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/events_stages_summary_global_by_event_name.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/events_statements_current.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/events_statements_history.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/events_statements_history_long.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/events_statements_summary_by_account_by_event_name.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/events_statements_summary_by_digest.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/events_statements_summary_by_host_by_event_name.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/events_statements_summary_by_program.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/events_statements_summary_by_thread_by_event_name.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/events_statements_summary_by_user_by_event_name.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/events_statements_summary_global_by_event_name.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/events_transactions_current.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/events_transactions_history.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/events_transactions_history_long.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/events_transactions_summary_by_account_by_event_name.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/events_transactions_summary_by_host_by_event_name.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/events_transactions_summary_by_thread_by_event_name.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/events_transactions_summary_by_user_by_event_name.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/events_transactions_summary_global_by_event_name.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/events_waits_current.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/events_waits_history.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/events_waits_history_long.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/events_waits_summary_by_account_by_event_name.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/events_waits_summary_by_host_by_event_name.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/events_waits_summary_by_instance.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/events_waits_summary_by_thread_by_event_name.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/events_waits_summary_by_user_by_event_name.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/events_waits_summary_global_by_event_name.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/file_instances.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/file_summary_by_event_name.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/file_summary_by_instance.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/global_status.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/global_variables.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/host_cache.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/hosts.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/memory_summary_by_account_by_event_name.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/memory_summary_by_host_by_event_name.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/memory_summary_by_thread_by_event_name.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/memory_summary_by_user_by_event_name.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/memory_summary_global_by_event_name.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/metadata_locks.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/mutex_instances.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/objects_summary_global_by_type.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/performance_timers.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/prepared_statements_instances.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/replication_applier_configuration.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/replication_applier_status.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/replication_applier_status_by_coordinator.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/replication_applier_status_by_worker.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/replication_connection_configuration.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/replication_connection_status.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/replication_group_member_stats.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/replication_group_members.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/rwlock_instances.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/session_account_connect_attrs.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/session_connect_attrs.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/session_status.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/session_variables.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/setup_actors.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/setup_consumers.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/setup_instruments.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/setup_objects.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/setup_timers.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/socket_instances.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/socket_summary_by_event_name.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/socket_summary_by_instance.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/status_by_account.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/status_by_host.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/status_by_thread.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/status_by_user.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/table_handles.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/table_io_waits_summary_by_index_usage.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/table_io_waits_summary_by_table.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/table_lock_waits_summary_by_table.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/threads.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/user_variables_by_thread.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/users.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/performance_schema/variables_by_thread.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/private_key.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/public_key.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/server-cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/server-key.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/db.opt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/host_summary.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/host_summary_by_file_io.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/host_summary_by_file_io_type.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/host_summary_by_stages.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/host_summary_by_statement_latency.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/host_summary_by_statement_type.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/innodb_buffer_stats_by_schema.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/innodb_buffer_stats_by_table.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/innodb_lock_waits.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/io_by_thread_by_latency.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/io_global_by_file_by_bytes.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/io_global_by_file_by_latency.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/io_global_by_wait_by_bytes.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/io_global_by_wait_by_latency.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/latest_file_io.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/memory_by_host_by_current_bytes.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/memory_by_thread_by_current_bytes.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/memory_by_user_by_current_bytes.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/memory_global_by_current_bytes.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/memory_global_total.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/metrics.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/processlist.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/ps_check_lost_instrumentation.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/schema_auto_increment_columns.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/schema_index_statistics.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/schema_object_overview.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/schema_redundant_indexes.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/schema_table_lock_waits.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/schema_table_statistics.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/schema_table_statistics_with_buffer.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/schema_tables_with_full_table_scans.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/schema_unused_indexes.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/session.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/session_ssl_status.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/statement_analysis.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/statements_with_errors_or_warnings.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/statements_with_full_table_scans.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/statements_with_runtimes_in_95th_percentile.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/statements_with_sorting.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/statements_with_temp_tables.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/sys_config.TRG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/sys_config.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/sys_config.ibd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/sys_config_insert_set_user.TRN" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/sys_config_update_set_user.TRN" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/user_summary.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/user_summary_by_file_io.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/user_summary_by_file_io_type.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/user_summary_by_stages.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/user_summary_by_statement_latency.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/user_summary_by_statement_type.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/version.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/wait_classes_global_by_avg_latency.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/wait_classes_global_by_latency.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/waits_by_host_by_latency.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/waits_by_user_by_latency.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/waits_global_by_latency.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/x@0024host_summary.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/x@0024host_summary_by_file_io.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/x@0024host_summary_by_file_io_type.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/x@0024host_summary_by_stages.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/x@0024host_summary_by_statement_latency.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/x@0024host_summary_by_statement_type.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/x@0024innodb_buffer_stats_by_schema.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/x@0024innodb_buffer_stats_by_table.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/x@0024innodb_lock_waits.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/x@0024io_by_thread_by_latency.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/x@0024io_global_by_file_by_bytes.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/x@0024io_global_by_file_by_latency.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/x@0024io_global_by_wait_by_bytes.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/x@0024io_global_by_wait_by_latency.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/x@0024latest_file_io.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/x@0024memory_by_host_by_current_bytes.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/x@0024memory_by_thread_by_current_bytes.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/x@0024memory_by_user_by_current_bytes.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/x@0024memory_global_by_current_bytes.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/x@0024memory_global_total.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/x@0024processlist.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/x@0024ps_digest_95th_percentile_by_avg_us.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/x@0024ps_digest_avg_latency_distribution.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/x@0024ps_schema_table_statistics_io.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/x@0024schema_flattened_keys.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/x@0024schema_index_statistics.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/x@0024schema_table_lock_waits.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/x@0024schema_table_statistics.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/x@0024schema_table_statistics_with_buffer.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/x@0024schema_tables_with_full_table_scans.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/x@0024session.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/x@0024statement_analysis.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/x@0024statements_with_errors_or_warnings.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/x@0024statements_with_full_table_scans.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/x@0024statements_with_runtimes_in_95th_percentile.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/x@0024statements_with_sorting.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/x@0024statements_with_temp_tables.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/x@0024user_summary.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/x@0024user_summary_by_file_io.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/x@0024user_summary_by_file_io_type.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/x@0024user_summary_by_stages.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/x@0024user_summary_by_statement_latency.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/x@0024user_summary_by_statement_type.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/x@0024wait_classes_global_by_avg_latency.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/x@0024wait_classes_global_by_latency.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/x@0024waits_by_host_by_latency.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/x@0024waits_by_user_by_latency.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/data/db/mysql/sys/x@0024waits_global_by_latency.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/htdocs/attemps.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/htdocs/logs/attemps 2.log_2022-11-25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/htdocs/logs/attemps.log_2022-11-25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/htdocs/logs/attemps_2022-11-25 2.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/htdocs/logs/attemps_2022-11-25.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/htdocs/logs/attemps_2022-11-30.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/htdocs/logs/attemps_2022-12-02.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/htdocs/logs/attemps_2022-12-07.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/htdocs/logs/attemps_2022-12-09.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/htdocs/logs/login_2022-11-30.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/htdocs/logs/login_2022-12-02.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/htdocs/logs/registration.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v1/htdocs/test/func.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/etc/nginx/default.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/etc/nginx/default.template.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/etc/php/php.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/etc/ssl/cacert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/etc/ssl/server.key" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/etc/ssl/server.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tondiraba v1/htdocs/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tondiraba v1/htdocs/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tondiraba v1/htdocs/registration.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tondiraba v1/htdocs/registration.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tondiraba v1/htdocs/test/test1.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tondiraba v1/htdocs/test/test1.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2FUf7UXN6Zzdp5LxEbyUpOsWkBb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/Tondiraba v1/htdocs" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tondiraba v2: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="Tondiraba v2/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.Tondiraba v2: Compose Deployment" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3b5508e5-cb33-48e0-8261-09df5193ddc5" name="Changes" comment="" />
+      <created>1664551417063</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1664551417063</updated>
+      <workItem from="1664551418338" duration="1962000" />
+      <workItem from="1665155717507" duration="1422000" />
+      <workItem from="1665587074257" duration="5489000" />
+      <workItem from="1666190754085" duration="12403000" />
+      <workItem from="1666795587940" duration="5141000" />
+      <workItem from="1666967758741" duration="2916000" />
+      <workItem from="1667403474860" duration="3582000" />
+      <workItem from="1667576803252" duration="628000" />
+      <workItem from="1668009087341" duration="1611000" />
+      <workItem from="1668182742217" duration="7000" />
+      <workItem from="1668613514248" duration="24223000" />
+      <workItem from="1670790365544" duration="366000" />
+      <workItem from="1670818770442" duration="2354000" />
+      <workItem from="1671034600045" duration="13000" />
+      <workItem from="1671034644757" duration="22000" />
+      <workItem from="1671034683302" duration="6000" />
+      <workItem from="1671034699811" duration="1936000" />
+      <workItem from="1671038402037" duration="1000" />
+      <workItem from="1671038418908" duration="4000" />
+      <workItem from="1671038451956" duration="607000" />
+      <workItem from="1673452844558" duration="4174000" />
+    </task>
+    <task id="LOCAL-00001" summary="ю">
+      <created>1665155838441</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1665155838441</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Revert &quot;.&quot;&#10;&#10;This reverts commit 148967c1">
+      <created>1665155864488</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665155864488</updated>
+    </task>
+    <task id="LOCAL-00003" summary="12-10">
+      <created>1665759094230</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665759094230</updated>
+    </task>
+    <task id="LOCAL-00004" summary="20-10">
+      <created>1666282127430</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666282127430</updated>
+    </task>
+    <task id="LOCAL-00005" summary="21-10">
+      <created>1666441135598</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1666441135598</updated>
+    </task>
+    <task id="LOCAL-00006" summary="26-10">
+      <created>1666804393783</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1666804393783</updated>
+    </task>
+    <task id="LOCAL-00007" summary="25-11">
+      <created>1669395905115</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1669395905115</updated>
+    </task>
+    <task id="LOCAL-00008" summary="07.12">
+      <created>1670429791326</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1670429791326</updated>
+    </task>
+    <task id="LOCAL-00009" summary="07.12">
+      <created>1670433080159</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1670433080159</updated>
+    </task>
+    <task id="LOCAL-00010" summary="14.12">
+      <created>1671032649172</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1671032649172</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Revert &quot;.&quot;&#10;&#10;This reverts commit 148967c1" />
+    <MESSAGE value="ю" />
+    <MESSAGE value="12-10" />
+    <MESSAGE value="20-10" />
+    <MESSAGE value="21-10" />
+    <MESSAGE value="26-10" />
+    <MESSAGE value="25-11" />
+    <MESSAGE value="07.12" />
+    <MESSAGE value="14.12" />
+    <option name="LAST_COMMIT_MESSAGE" value="14.12" />
+  </component>
+</project>
