@@ -3,6 +3,20 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
+        <entry key="/Tondiraba v1/data/db/mysql/mysql/general_log.CSV">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/Tondiraba v1/data/db/mysql/mysql/slow_log.CSV">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/Tondiraba v1/htdocs/logs/registration.csv">
           <value>
             <Attribute>
