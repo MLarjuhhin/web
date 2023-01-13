@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b5508e5-cb33-48e0-8261-09df5193ddc5" name="Changes" comment="11.01">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
-    </list>
+    <list default="true" id="3b5508e5-cb33-48e0-8261-09df5193ddc5" name="Changes" comment="11.01" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -92,7 +89,7 @@
       <workItem from="1671038418908" duration="4000" />
       <workItem from="1671038451956" duration="607000" />
       <workItem from="1673452844558" duration="4174000" />
-      <workItem from="1673624681196" duration="175000" />
+      <workItem from="1673624681196" duration="541000" />
     </task>
     <task id="LOCAL-00001" summary="ю">
       <created>1665155838441</created>
@@ -171,7 +168,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673624793306</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="11.01">
+      <created>1673624859476</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1673624859476</updated>
+    </task>
+    <task id="LOCAL-00013" summary="11.01">
+      <created>1673624882491</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1673624882491</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
