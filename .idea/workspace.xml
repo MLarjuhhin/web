@@ -1,7 +1,164 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b5508e5-cb33-48e0-8261-09df5193ddc5" name="Changes" comment="11.01" />
+    <list default="true" id="3b5508e5-cb33-48e0-8261-09df5193ddc5" name="Changes" comment="25.01">
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/includes/common.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/includes/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/includes/session.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/log/php-error-2023-01-20.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/log/php-error-2023-01-25.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/coffee-shop-html-template.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/css/style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/img/about.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/img/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/img/carousel-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/img/carousel-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/img/menu-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/img/menu-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/img/menu-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/img/overlay-bottom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/img/overlay-top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/img/service-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/img/service-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/img/service-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/img/service-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/img/testimonial-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/img/testimonial-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/img/testimonial-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/img/testimonial-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/lib/easing/easing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/lib/easing/easing.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/lib/owlcarousel/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/lib/owlcarousel/assets/ajax-loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/lib/owlcarousel/assets/owl.carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/lib/owlcarousel/assets/owl.carousel.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/lib/owlcarousel/assets/owl.theme.default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/lib/owlcarousel/assets/owl.theme.default.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/lib/owlcarousel/assets/owl.theme.green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/lib/owlcarousel/assets/owl.theme.green.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/lib/owlcarousel/assets/owl.video.play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/lib/owlcarousel/owl.carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/lib/owlcarousel/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/lib/tempusdominus/css/tempusdominus-bootstrap-4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/lib/tempusdominus/js/moment-timezone.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/lib/tempusdominus/js/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/lib/tempusdominus/js/tempusdominus-bootstrap-4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/lib/waypoints/links.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/lib/waypoints/waypoints.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/mail/contact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/mail/contact.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/mail/jqBootstrapValidation.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/reservation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/_breadcrumb.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/_button-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/_card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/_carousel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/_close.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/_code.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/_custom-forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/_dropdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/_functions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/_images.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/_input-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/_jumbotron.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/_media.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/_modal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/_nav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/_navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/_popover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/_print.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/_progress.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/_reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/_root.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/_spinners.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/_tables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/_toasts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/_tooltip.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/_transitions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/_type.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/bootstrap-grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/bootstrap-reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/bootstrap.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/mixins/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/mixins/_background-variant.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/mixins/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/mixins/_border-radius.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/mixins/_box-shadow.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/mixins/_breakpoints.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/mixins/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/mixins/_caret.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/mixins/_clearfix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/mixins/_deprecate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/mixins/_float.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/mixins/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/mixins/_gradients.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/mixins/_grid-framework.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/mixins/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/mixins/_hover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/mixins/_image.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/mixins/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/mixins/_lists.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/mixins/_nav-divider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/mixins/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/mixins/_reset-text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/mixins/_resize.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/mixins/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/mixins/_size.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/mixins/_table-row.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/mixins/_text-emphasis.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/mixins/_text-hide.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/mixins/_text-truncate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/mixins/_transition.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/mixins/_visibility.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/utilities/_align.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/utilities/_background.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/utilities/_borders.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/utilities/_clearfix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/utilities/_display.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/utilities/_embed.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/utilities/_flex.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/utilities/_float.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/utilities/_interactions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/utilities/_overflow.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/utilities/_position.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/utilities/_screenreaders.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/utilities/_shadows.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/utilities/_sizing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/utilities/_spacing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/utilities/_stretched-link.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/utilities/_text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/utilities/_visibility.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/bootstrap/scss/vendor/_rfs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tondiraba v2/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Tondiraba v2/readme.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,15 +191,19 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Tondiraba v2/htdocs/www" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Tondiraba v2/htdocs/www" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Tondiraba v1/htdocs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Tondiraba v2/htdocs/www" />
     </key>
   </component>
   <component name="RunManager">
@@ -89,7 +250,10 @@
       <workItem from="1671038418908" duration="4000" />
       <workItem from="1671038451956" duration="607000" />
       <workItem from="1673452844558" duration="4174000" />
-      <workItem from="1673624681196" duration="541000" />
+      <workItem from="1673624681196" duration="2150000" />
+      <workItem from="1673793231061" duration="1197000" />
+      <workItem from="1674229471649" duration="5716000" />
+      <workItem from="1674662016215" duration="800000" />
     </task>
     <task id="LOCAL-00001" summary="ю">
       <created>1665155838441</created>
@@ -182,7 +346,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673624882491</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="13.01">
+      <created>1673629253649</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1673629253649</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,6 +391,8 @@
     <MESSAGE value="07.12" />
     <MESSAGE value="14.12" />
     <MESSAGE value="11.01" />
-    <option name="LAST_COMMIT_MESSAGE" value="11.01" />
+    <MESSAGE value="13.01" />
+    <MESSAGE value="25.01" />
+    <option name="LAST_COMMIT_MESSAGE" value="25.01" />
   </component>
 </project>
