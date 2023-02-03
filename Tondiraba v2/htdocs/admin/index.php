@@ -20,7 +20,7 @@ if (!empty($_SESSION['error'])) {
 	unset($_SESSION['success']);
 }
 $reqInfo = parse_url($_SERVER['REQUEST_URI']);
-var_dump($reqInfo);
+
 if (is_array($reqInfo)) {
 	@list($dummy, $modulePage0, $modulePage1, $modulePage2, $modulePage3, $modulePage4, $modulePage5) = explode("/",
 		$reqInfo['path'], 6);
@@ -31,33 +31,48 @@ if (is_array($reqInfo)) {
 	$CHECK['modulePage'][]=$modulePage4 = preg_replace("/(\.html.*)$/i", "", $modulePage4);
 	$CHECK['modulePage'][]=$modulePage5 = preg_replace("/(\.html.*)$/i", "", $modulePage5);
 
-} else {
+}else{
 	$modulePage0 = "";
-	$modulePage1 = null;
+}
+$eror404=false;
+
+$_SESSION['manager_id']=1;
+
+if(empty($_SESSION['manager_id']) || $modulePage0=='login'){
+	$modulePage0='login';
 }
 
 $include = $modulePage0;
 
+
+
 if (!empty($include) && file_exists('scripts/'.$include.'.php')) {
 	require_once('scripts/'.$include.'.php');
+}else{
+	$eror404=true;
 }
 
-// inner design -> tpl
-if (!empty($include) && file_exists('tpl/'.$include.'_tpl.php')) {
-	ob_start();
-	require_once('tpl/'.$include.'_tpl.php');
-	$data['body'] = ob_get_contents();
-	ob_end_clean();
-}
+	// inner design -> tpl
+	if (!empty($include) && file_exists('tpl/'.$include.'_tpl.php')) {
+		ob_start();
+		require_once('tpl/'.$include.'_tpl.php');
+		$data['body'] = ob_get_contents();
+		ob_end_clean();
+	}
 
 
 ob_start();
-include('tpl/index_tpl.php');
+require_once('tpl/index_tpl.php');
 $data['body'] = ob_get_contents();
 ob_end_clean();
 
 
 echo(trim($data['body']));
+
+echo "<hr>";
+print_rf($CHECK);
+print_rf(['include'=>$include]);
+print_rf(['SESSON'=>$_SESSION]);
 
 
 
