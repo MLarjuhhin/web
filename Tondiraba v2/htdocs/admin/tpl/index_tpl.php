@@ -109,8 +109,6 @@
                     <div class="alert alert-success" role="alert">
 						<?= showArray($data['success']) ?>
                     </div>
-
-
 					<?
 				} ?>
 				<?= $data['body']; ?>
