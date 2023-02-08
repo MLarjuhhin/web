@@ -32,7 +32,7 @@
 <? if ($include == 'login'){ ?>
 <body class="login-page">
 <?}else{?>
-<body class="hold-transition sidebar-mini layout-fixed">
+<body class="sidebar-mini sidemenu-closed sidebar-collapse layout-fixed" style="height:auto">
 <? } ?>
 
 
@@ -75,10 +75,15 @@
             <nav class="mt-2">
                 <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
                     <li class="nav-item">
-                        <a href="gallery.html" class="nav-link">
-                            <i class="nav-icon far fa-image"></i>
+                        <a href="/" class="nav-link <?=(empty($modulePage0))?'active':''?>">
                             <p>
-                                Gallery
+                                Info
+                            </p>
+                        </a>
+                    </li> <li class="nav-item">
+                        <a href="/testimonial.html" class="nav-link <?=($modulePage0=='testimonial')?'active':''?>">
+                            <p>
+                                TESTIMONIAL
                             </p>
                         </a>
                     </li>
@@ -88,7 +93,33 @@
     </aside>
 
 
-    <?=$data['body']?>
+
+
+        <div class="container-fluid">
+            <div class="row ">
+				<?
+				include_once 'tpl/search_inc_tpl.php'; ?>
+				<?
+				if (!empty($data['error'])) { ?>
+                    <div class="alert alert-danger" role="alert">
+						<?= showArray($data['error']) ?>
+
+                    </div>
+					<?
+				} ?>
+				<?
+				if (!empty($data['success'])) { ?>
+                    <div class="alert alert-success" role="alert">
+						<?= showArray($data['success']) ?>
+                    </div>
+
+
+					<?
+				} ?>
+				<?= $data['body']; ?>
+            </div>
+        </div>
+
 
 
 
