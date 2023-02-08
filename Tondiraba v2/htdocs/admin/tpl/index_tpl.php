@@ -95,12 +95,9 @@
 
 
 
-        <div class="container-fluid">
-            <div class="row ">
-				<?
-				include_once 'tpl/search_inc_tpl.php'; ?>
-				<?
-				if (!empty($data['error'])) { ?>
+        <div class="container">
+            <div class="row">
+			<?	if (!empty($data['error'])) { ?>
                     <div class="alert alert-danger" role="alert">
 						<?= showArray($data['error']) ?>
 
