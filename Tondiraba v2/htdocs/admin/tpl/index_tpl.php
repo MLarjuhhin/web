@@ -28,6 +28,7 @@
 
 
     <!-- JS -->
+    <script src="<?= $conf['web_url']; ?>/assets/plugins/jquery/jquery.min.js"></script>
 </head>
 <? if ($include == 'login'){ ?>
 <body class="login-page">
@@ -44,7 +45,6 @@
             <li class="nav-item">
                 <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
             </li>
-
         </ul>
 
     </nav>
@@ -133,8 +133,9 @@
 
 
 
-
-    </body>
+<!-- AdminLTE App -->
+<script src="<?= $conf['web_url']; ?>/assets/js/adminlte.min.js"></script>
+</body>
 
 </html>
 
