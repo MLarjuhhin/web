@@ -1,19 +1,37 @@
 <div class="col-md-12">
-	<div class="card">
-		<div class="card-header">
-			<h2></h2>
-		</div>
-		<div class="card-body">
+    <div class="card">
+        <div class="card-header">
+            <h2>Добавить запись</h2>
+        </div>
+        <div class="card-body">
+            <form method="post">
+                <!-- name -->
+                <div class="form-group row ">
+                    <label class="control-label col-md-4" id="name">Имя</label>
+                    <div class="col-md-6">
+                        <input type="text" name="name" id="name" class="form-control">
+                    </div>
+                </div>
 
-			<div class="col-lg-12 p-t-20">
-				<div class="form-group row ">
-					<label class="control-label col-md-4" id="laager_name_rus_label"></label>
-					<div class="col-md-6">
-						<input type="text" name="laager_name_rus" id="laager_name_rus" class="form-control">
-					</div>
-				</div>
-			</div>
+                <!-- profession -->
+                <div class="form-group row ">
+                    <label class="control-label col-md-4" id="profession">Профессия</label>
+                    <div class="col-md-6">
+                        <input type="text" name="profession" id="profession" class="form-control">
+                    </div>
+                </div>
+                <!-- descr -->
+                <div class="form-group row ">
+                    <label class="control-label col-md-4" id="description">Описание</label>
+                    <div class="col-md-6">
+                        <textarea name="description" id="description" cols="30" rows="3"
+                                  class="form-control"></textarea>
+                    </div>
+                </div>
+                <input type="submit" class="btn btn-success" value="Отправить">
+                <a href="/<?= $modulePage0 ?>" class="btn btn-info">Отмена</a>
+            </form>
 
-		</div>
-	</div>
+        </div>
+    </div>
 </div>
