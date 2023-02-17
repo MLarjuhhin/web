@@ -206,7 +206,7 @@ class MySQL
     function Err($query, $message, $errno)
     {
         
-        global $base;
+        global $conf;
     
         if ($query == 'cannot connect to the database') {
             $_SESSION = [];
@@ -219,7 +219,7 @@ class MySQL
                     $message
                 ).'</font><br>'.$query.'<hr>');
             @file_put_contents(
-                $base['log_dir'].'/mysql-error-'.date("Y-m-d").'.log',
+                $conf['log_dir'].'/mysql-error-'.date("Y-m-d").'.log',
                 date(
                     "H:i:s"
                 )."::".(isset($_SERVER['REMOTE_ADDR']) ? $_SERVER['REMOTE_ADDR'] : "")."::".$message."::".$query."::".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']."\n",
@@ -232,14 +232,14 @@ class MySQL
             
         }else {
                    @file_put_contents(
-                $base['log_dir'].'/mysql-error-'.date("Y-m-d").'.log',
+                $conf['log_dir'].'/mysql-error-'.date("Y-m-d").'.log',
                 date(
                     "H:i:s"
                 )."::".(isset($_SERVER['REMOTE_ADDR']) ? $_SERVER['REMOTE_ADDR'] : "")."::".$message."::".$query."::".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']."\n",
                 FILE_APPEND
             );
         }
-        //exit ();
+        exit ();
     }
     
 
