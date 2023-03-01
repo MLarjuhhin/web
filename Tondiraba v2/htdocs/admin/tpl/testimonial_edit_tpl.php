@@ -1,3 +1,4 @@
+
 <div class="col-md-12">
     <div class="card">
         <div class="card-header">
@@ -9,7 +10,7 @@
                 <div class="form-group row ">
                     <label class="control-label col-md-4" id="name">Имя</label>
                     <div class="col-md-6">
-                        <input type="text" name="name" id="name" class="form-control">
+                        <input type="text" name="name" id="name" class="form-control" value="<?=(isset($Update['name'])?$Update['name']:'')?>">
                     </div>
                 </div>
 
@@ -17,15 +18,14 @@
                 <div class="form-group row ">
                     <label class="control-label col-md-4" id="profession">Профессия</label>
                     <div class="col-md-6">
-                        <input type="text" name="profession" id="profession" class="form-control">
+                        <input type="text" name="profession" id="profession" class="form-control" value="<?=(isset($Update['profession'])?$Update['profession']:'')?>">
                     </div>
                 </div>
                 <!-- descr -->
                 <div class="form-group row ">
                     <label class="control-label col-md-4" id="description">Описание</label>
                     <div class="col-md-6">
-                        <textarea name="description" id="description" cols="30" rows="3"
-                                  class="form-control"></textarea>
+                        <textarea name="description" id="description" cols="30" rows="3" class="form-control"><?=(isset($Update['description'])?$Update['description']:'')?></textarea>
                     </div>
                 </div>
                 <input type="submit" class="btn btn-success" value="Отправить">

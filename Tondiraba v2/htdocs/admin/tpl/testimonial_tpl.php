@@ -24,7 +24,6 @@ include_once 'testimonial_edit_tpl.php';
 
                     </tr>
                     <?
-                    $Query=$DB->AllRows("SELECT * FROM testimonial ");
 
                     foreach ($Query as $k =>$v){?>
                         <tr>
