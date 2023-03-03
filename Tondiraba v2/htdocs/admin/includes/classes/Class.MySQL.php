@@ -262,8 +262,11 @@ class MySQL
         
         return $value;
     }
-    
 
+	function time()
+	{
+		return date("Y-m-d H:i:s", time());
+	}
 
 
 }

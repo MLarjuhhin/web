@@ -69,10 +69,11 @@ ob_end_clean();
 
 echo(trim($data['body']));
 
-echo "<hr>";
+echo "<div style='margin-left: 100px'><hr>";
 print_rf($CHECK);
 print_rf(['include'=>$include]);
 print_rf(['SESSON'=>$_SESSION]);
+echo "</div>";
 
 
 
