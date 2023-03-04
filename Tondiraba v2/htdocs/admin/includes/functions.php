@@ -17,18 +17,13 @@ function refreshPage($url = false)
 	header("Location: ".$url);
 	exit;
 }
-function showArray($d, $echo = false)
+function showArray($d)
 {
-
 	if (is_array($d)) {
 		foreach ($d as $k => $v) {
 			showArray($v);
 		}
 	}else {
-		if ($echo) {
-			return $d."<br />";
-		}else {
-			print $d."<br />";
-		}
+		print $d."<br />";
 	}
 }

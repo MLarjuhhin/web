@@ -97,21 +97,27 @@
 
         <div class="container">
             <div class="row">
-			<?	if (!empty($data['error'])) { ?>
-                    <div class="alert alert-danger" role="alert">
-						<?= showArray($data['error']) ?>
+                <div class="col-md-12">
 
-                    </div>
+					<?	if (!empty($data['error'])) { ?>
+                        <div class="alert alert-danger" role="alert">
+							<?= showArray($data['error']) ?>
+
+                        </div>
+						<?
+					} ?>
 					<?
-				} ?>
-				<?
-				if (!empty($data['success'])) { ?>
-                    <div class="alert alert-success" role="alert">
-						<?= showArray($data['success']) ?>
-                    </div>
-					<?
-				} ?>
-				<?= $data['body']; ?>
+					if (!empty($data['success'])) { ?>
+                        <div class="alert alert-success" role="alert">
+							<?= showArray($data['success']) ?>
+                        </div>
+						<?
+					} ?>
+
+                </div>
+
+	<?= $data['body']; ?>
+
             </div>
         </div>
 

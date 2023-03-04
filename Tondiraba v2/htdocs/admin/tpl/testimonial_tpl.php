@@ -34,7 +34,22 @@ include_once 'testimonial_edit_tpl.php';
                             <td><?=$v['description']?></td>
                             <td>Активный</td>
                             <td><a href="/testimonial/edit/<?=$v['id']?>" class="btn btn-warning">Обновить</a></td>
-                            <td><a href="/testimonial/delete/<?=$v['id']?>" class="btn btn-danger">Удалить</a></td>
+
+                            <td>
+                                <form action="/testimonial/delete/<?=$v['id']?>" method="post" id="delete_testimonial_<?=$v['id']?>">
+
+                                    <input type="submit" class="btn btn-danger"  onclick="if(!confirm('Уверены?')) {
+                                        return false;
+                                    }else{
+                                        document.getElementById('delete_testimonial_<?= $v['id'] ?>').submit(); return false;
+                                    }" >
+
+                                </form>
+
+
+                            </td>
+
+
                         </tr>
 					<?}
 

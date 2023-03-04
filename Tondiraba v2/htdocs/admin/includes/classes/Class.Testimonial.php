@@ -23,6 +23,8 @@ Class Testimonial{
 			$insert_data['date_add']=$DB->time();
 			$res=$DB->Insert('testimonial',$insert_data);
 			$id=$DB->getInsertID();
+		}else{
+			$res=$DB->Update('testimonial',$insert_data,' where id='.$data['id']);
 		}
 
 		if($res){

@@ -20,7 +20,17 @@ if(!empty($_POST)){
 	$Update = $DB->FQuery("SELECT * FROM testimonial where id=?",[$modulePage2]);
 	//TODO: refresh if empty
 }elseif($modulePage1=='delete' && is_numeric($modulePage2)){
-	dd('delete');
+	$delete_date=['id'=>$modulePage2,'date_delete'=>$DB->time()];
+	$res=Testimonial::save($DB,$delete_date);
+
+	if($res){
+		$_SESSION['success']='ok';
+	}else{
+		$_SESSION['error']='error';
+	}
+	refreshPage('/'.$modulePage0);
+
+
 }
 
 
