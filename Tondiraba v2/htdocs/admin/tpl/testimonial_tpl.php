@@ -14,7 +14,6 @@ include_once 'testimonial_edit_tpl.php';
                 <table class="table table-striped">
                     <tr>
                         <th>#</th>
-                        <th>Изображение</th>
                         <th>Имя</th>
                         <th>Профессия</th>
                         <th>Описание</th>
@@ -24,35 +23,30 @@ include_once 'testimonial_edit_tpl.php';
 
                     </tr>
                     <?
-
+$x=1;
                     foreach ($Query as $k =>$v){?>
                         <tr>
-                            <td><?=$v['id']?></td>
-                            <td><?=$v['img_id']?></td>
+                            <td><?=$x?></td>
                             <td><?=$v['name']?></td>
                             <td><?=$v['profession']?></td>
                             <td><?=$v['description']?></td>
                             <td>Активный</td>
                             <td><a href="/testimonial/edit/<?=$v['id']?>" class="btn btn-warning">Обновить</a></td>
-
                             <td>
                                 <form action="/testimonial/delete/<?=$v['id']?>" method="post" id="delete_testimonial_<?=$v['id']?>">
 
-                                    <input type="submit" class="btn btn-danger"  onclick="if(!confirm('Уверены?')) {
+                                    <input type="submit" class="btn btn-danger" value="Delete" onclick="if(!confirm('Уверены?')) {
                                         return false;
                                     }else{
                                         document.getElementById('delete_testimonial_<?= $v['id'] ?>').submit(); return false;
                                     }" >
 
                                 </form>
-
-
                             </td>
-
-
                         </tr>
-					<?}
-
+					<?
+                    $x++;
+                    }
                     ?>
                 </table>
             </div>

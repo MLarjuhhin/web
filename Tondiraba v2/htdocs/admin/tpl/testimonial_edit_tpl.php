@@ -28,7 +28,13 @@
                         <textarea name="description" id="description" cols="30" rows="3" class="form-control"><?=(isset($Update['description'])?$Update['description']:'')?></textarea>
                     </div>
                 </div>
-                <input type="submit" class="btn btn-success" value="Отправить">
+                <?
+                if($modulePage1=='edit'){
+                ?>
+                    <input type="submit" class="btn btn-warning" value="Обновить">
+                <?}else{?>
+                    <input type="submit" class="btn btn-success" value="Добавить">
+                <?}?>
                 <a href="/<?= $modulePage0 ?>" class="btn btn-info">Отмена</a>
             </form>
 
