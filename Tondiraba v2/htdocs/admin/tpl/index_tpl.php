@@ -71,17 +71,39 @@
                     <li class="nav-item">
                         <a href="/" class="nav-link <?=(empty($modulePage0))?'active':''?>">
                             <i class=" nav-icon fas fa-info"></i>
+
                             <p>
                                 Info
                             </p>
                         </a>
-                    </li> <li class="nav-item">
+                    </li>
+                    <li class="nav-item">
                         <a href="/testimonial.html" class="nav-link <?=($modulePage0=='testimonial')?'active':''?>">
                             <i class=" nav-icon fas fa-list"></i>
                             <p>
                                 TESTIMONIAL
                             </p>
                         </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/menu.html" class="nav-link <?=($modulePage0=='menu')?'active':''?>">
+                            <i class=" nav-icon fas fa-store"></i>
+                            <p>
+                                MENU
+                            </p>
+                        </a>
+                        <ul class="nav nav-treeview" style="display: none;">
+                            <li class="nav-item">
+                                <a href="/menu/category.html" class="nav-link ">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>Категории</p></a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="/menu/product.html" class="nav-link ">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>Продукты</p></a>
+                            </li>
+                        </ul>
                     </li>
                 </ul>
             </nav>
