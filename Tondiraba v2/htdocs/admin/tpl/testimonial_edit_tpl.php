@@ -13,7 +13,6 @@
                         <input type="text" name="name" id="name" class="form-control" value="<?=(isset($Update['name'])?$Update['name']:'')?>">
                     </div>
                 </div>
-
                 <!-- profession -->
                 <div class="form-group row ">
                     <label class="control-label col-md-4" id="profession">Профессия</label>

@@ -1,810 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b5508e5-cb33-48e0-8261-09df5193ddc5" name="Changes" comment="27.01">
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/css/adminlte.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/css/adminlte.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/css/alt/adminlte.extra-components.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/css/alt/adminlte.extra-components.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/css/alt/adminlte.light.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/css/alt/adminlte.light.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/css/alt/adminlte.light.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/css/alt/adminlte.light.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/css/alt/adminlte.pages.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/css/alt/adminlte.pages.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/css/alt/adminlte.pages.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/css/alt/adminlte.pages.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/css/alt/adminlte.plugins.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/css/alt/adminlte.plugins.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/css/alt/adminlte.plugins.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/css/alt/adminlte.plugins.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/js/adminlte.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/js/adminlte.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/js/adminlte.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/js/adminlte.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/js/demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/js/pages/dashboard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/js/pages/dashboard2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/js/pages/dashboard3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/bootstrap4-duallistbox/bootstrap-duallistbox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/bootstrap4-duallistbox/bootstrap-duallistbox.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/bootstrap4-duallistbox/jquery.bootstrap-duallistbox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/bootstrap4-duallistbox/jquery.bootstrap-duallistbox.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/bs-custom-file-input/bs-custom-file-input.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/bs-custom-file-input/bs-custom-file-input.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/bs-custom-file-input/bs-custom-file-input.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/bs-custom-file-input/bs-custom-file-input.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/bs-stepper/css/bs-stepper.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/bs-stepper/css/bs-stepper.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/bs-stepper/css/bs-stepper.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/bs-stepper/css/bs-stepper.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/bs-stepper/js/bs-stepper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/bs-stepper/js/bs-stepper.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/bs-stepper/js/bs-stepper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/bs-stepper/js/bs-stepper.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/addon/comment/comment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/addon/comment/continuecomment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/addon/dialog/dialog.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/addon/dialog/dialog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/addon/display/autorefresh.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/addon/display/fullscreen.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/addon/display/fullscreen.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/addon/display/panel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/addon/display/placeholder.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/addon/display/rulers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/addon/edit/closebrackets.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/addon/edit/closetag.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/addon/edit/continuelist.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/addon/edit/matchbrackets.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/addon/edit/matchtags.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/addon/edit/trailingspace.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/addon/fold/brace-fold.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/addon/fold/comment-fold.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/addon/fold/foldcode.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/addon/fold/foldgutter.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/addon/fold/foldgutter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/addon/fold/indent-fold.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/addon/fold/markdown-fold.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/addon/fold/xml-fold.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/addon/hint/anyword-hint.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/addon/hint/css-hint.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/addon/hint/html-hint.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/addon/hint/javascript-hint.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/addon/hint/show-hint.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/addon/hint/show-hint.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/addon/hint/sql-hint.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/addon/hint/xml-hint.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/addon/lint/coffeescript-lint.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/addon/lint/css-lint.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/addon/lint/html-lint.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/addon/lint/javascript-lint.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/addon/lint/json-lint.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/addon/lint/lint.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/addon/lint/lint.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/addon/lint/yaml-lint.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/addon/merge/merge.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/addon/merge/merge.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/addon/mode/loadmode.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/addon/mode/multiplex.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/addon/mode/multiplex_test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/addon/mode/overlay.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/addon/mode/simple.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/addon/runmode/colorize.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/addon/runmode/runmode-standalone.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/addon/runmode/runmode.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/addon/runmode/runmode.node.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/addon/scroll/annotatescrollbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/addon/scroll/scrollpastend.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/addon/scroll/simplescrollbars.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/addon/scroll/simplescrollbars.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/addon/search/jump-to-line.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/addon/search/match-highlighter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/addon/search/matchesonscrollbar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/addon/search/matchesonscrollbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/addon/search/search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/addon/search/searchcursor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/addon/selection/mark-selection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/addon/selection/selection-pointer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/addon/tern/tern.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/addon/tern/tern.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/addon/tern/worker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/addon/wrap/hardwrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/codemirror.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/codemirror.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/keymap/emacs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/keymap/sublime.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/keymap/vim.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/apl/apl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/asciiarmor/asciiarmor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/asn.1/asn.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/asterisk/asterisk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/brainfuck/brainfuck.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/clike/clike.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/clojure/clojure.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/cmake/cmake.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/cobol/cobol.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/coffeescript/coffeescript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/commonlisp/commonlisp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/crystal/crystal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/css/css.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/cypher/cypher.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/d/d.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/dart/dart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/diff/diff.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/django/django.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/dockerfile/dockerfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/dtd/dtd.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/dylan/dylan.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/ebnf/ebnf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/ecl/ecl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/eiffel/eiffel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/elm/elm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/erlang/erlang.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/factor/factor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/fcl/fcl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/forth/forth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/fortran/fortran.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/gas/gas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/gfm/gfm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/gherkin/gherkin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/go/go.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/groovy/groovy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/haml/haml.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/handlebars/handlebars.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/haskell-literate/haskell-literate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/haskell/haskell.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/haxe/haxe.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/htmlembedded/htmlembedded.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/htmlmixed/htmlmixed.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/http/http.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/idl/idl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/javascript/javascript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/jinja2/jinja2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/jsx/jsx.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/julia/julia.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/livescript/livescript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/lua/lua.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/markdown/markdown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/mathematica/mathematica.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/mbox/mbox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/meta.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/mirc/mirc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/mllike/mllike.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/modelica/modelica.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/mscgen/mscgen.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/mumps/mumps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/nginx/nginx.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/nsis/nsis.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/ntriples/ntriples.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/octave/octave.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/oz/oz.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/pascal/pascal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/pegjs/pegjs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/perl/perl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/php/php.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/pig/pig.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/powershell/powershell.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/properties/properties.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/protobuf/protobuf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/pug/pug.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/puppet/puppet.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/python/python.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/q/q.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/r/r.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/rpm/rpm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/rst/rst.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/ruby/ruby.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/rust/rust.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/sas/sas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/sass/sass.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/scheme/scheme.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/shell/shell.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/sieve/sieve.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/slim/slim.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/smalltalk/smalltalk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/smarty/smarty.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/solr/solr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/soy/soy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/sparql/sparql.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/spreadsheet/spreadsheet.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/sql/sql.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/stex/stex.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/stylus/stylus.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/swift/swift.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/tcl/tcl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/textile/textile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/tiddlywiki/tiddlywiki.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/tiddlywiki/tiddlywiki.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/tiki/tiki.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/tiki/tiki.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/toml/toml.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/tornado/tornado.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/troff/troff.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/ttcn-cfg/ttcn-cfg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/ttcn/ttcn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/turtle/turtle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/twig/twig.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/vb/vb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/vbscript/vbscript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/velocity/velocity.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/verilog/verilog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/vhdl/vhdl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/vue/vue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/wast/wast.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/webidl/webidl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/xml/xml.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/xquery/xquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/yacas/yacas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/yaml-frontmatter/yaml-frontmatter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/yaml/yaml.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/mode/z80/z80.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/theme/ambiance-mobile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/theme/ambiance.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/theme/ayu-dark.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/theme/ayu-mirage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/theme/base16-dark.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/theme/base16-light.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/theme/bespin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/theme/blackboard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/theme/cobalt.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/theme/colorforth.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/theme/darcula.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/theme/dracula.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/theme/duotone-dark.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/theme/duotone-light.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/theme/eclipse.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/theme/elegant.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/theme/erlang-dark.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/theme/gruvbox-dark.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/theme/hopscotch.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/theme/icecoder.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/theme/idea.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/theme/isotope.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/theme/juejin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/theme/lesser-dark.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/theme/liquibyte.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/theme/lucario.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/theme/material-darker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/theme/material-ocean.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/theme/material-palenight.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/theme/material.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/theme/mbo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/theme/mdn-like.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/theme/midnight.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/theme/monokai.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/theme/moxer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/theme/neat.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/theme/neo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/theme/night.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/theme/nord.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/theme/oceanic-next.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/theme/panda-syntax.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/theme/paraiso-dark.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/theme/paraiso-light.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/theme/pastel-on-dark.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/theme/railscasts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/theme/rubyblue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/theme/seti.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/theme/shadowfox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/theme/solarized.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/theme/ssms.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/theme/the-matrix.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/theme/tomorrow-night-bright.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/theme/tomorrow-night-eighties.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/theme/ttcn.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/theme/twilight.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/theme/vibrant-ink.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/theme/xq-dark.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/theme/xq-light.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/theme/yeti.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/theme/yonce.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/codemirror/theme/zenburn.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-autofill/css/autoFill.bootstrap4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-autofill/css/autoFill.bootstrap4.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-autofill/js/autoFill.bootstrap4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-autofill/js/autoFill.bootstrap4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-autofill/js/dataTables.autoFill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-autofill/js/dataTables.autoFill.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-bs4/css/dataTables.bootstrap4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-bs4/js/dataTables.bootstrap4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-buttons/css/buttons.bootstrap4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-buttons/css/buttons.bootstrap4.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-buttons/js/buttons.bootstrap4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-buttons/js/buttons.bootstrap4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-buttons/js/buttons.colVis.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-buttons/js/buttons.colVis.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-buttons/js/buttons.flash.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-buttons/js/buttons.flash.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-buttons/js/buttons.html5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-buttons/js/buttons.html5.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-buttons/js/buttons.print.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-buttons/js/buttons.print.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-buttons/js/dataTables.buttons.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-buttons/js/dataTables.buttons.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-colreorder/css/colReorder.bootstrap4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-colreorder/css/colReorder.bootstrap4.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-colreorder/js/colReorder.bootstrap4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-colreorder/js/colReorder.bootstrap4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-colreorder/js/dataTables.colReorder.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-colreorder/js/dataTables.colReorder.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-fixedcolumns/css/fixedColumns.bootstrap4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-fixedcolumns/css/fixedColumns.bootstrap4.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-fixedcolumns/js/dataTables.fixedColumns.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-fixedcolumns/js/dataTables.fixedColumns.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-fixedcolumns/js/fixedColumns.bootstrap4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-fixedcolumns/js/fixedColumns.bootstrap4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-fixedheader/css/fixedHeader.bootstrap4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-fixedheader/css/fixedHeader.bootstrap4.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-fixedheader/js/dataTables.fixedHeader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-fixedheader/js/dataTables.fixedHeader.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-fixedheader/js/fixedHeader.bootstrap4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-fixedheader/js/fixedHeader.bootstrap4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-keytable/css/keyTable.bootstrap4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-keytable/css/keyTable.bootstrap4.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-keytable/js/dataTables.keyTable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-keytable/js/dataTables.keyTable.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-keytable/js/keyTable.bootstrap4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-keytable/js/keyTable.bootstrap4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-responsive/css/responsive.bootstrap4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-responsive/css/responsive.bootstrap4.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-responsive/js/dataTables.responsive.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-responsive/js/dataTables.responsive.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-responsive/js/responsive.bootstrap4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-responsive/js/responsive.bootstrap4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-rowgroup/css/rowGroup.bootstrap4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-rowgroup/css/rowGroup.bootstrap4.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-rowgroup/js/dataTables.rowGroup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-rowgroup/js/dataTables.rowGroup.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-rowgroup/js/rowGroup.bootstrap4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-rowgroup/js/rowGroup.bootstrap4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-rowreorder/css/rowReorder.bootstrap4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-rowreorder/css/rowReorder.bootstrap4.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-rowreorder/js/dataTables.rowReorder.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-rowreorder/js/dataTables.rowReorder.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-rowreorder/js/rowReorder.bootstrap4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-rowreorder/js/rowReorder.bootstrap4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-scroller/css/scroller.bootstrap4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-scroller/css/scroller.bootstrap4.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-scroller/js/dataTables.scroller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-scroller/js/dataTables.scroller.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-scroller/js/scroller.bootstrap4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-scroller/js/scroller.bootstrap4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-searchbuilder/css/searchBuilder.bootstrap4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-searchbuilder/css/searchBuilder.bootstrap4.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-searchbuilder/js/dataTables.searchBuilder.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-searchbuilder/js/dataTables.searchBuilder.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-searchbuilder/js/searchBuilder.bootstrap4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-searchbuilder/js/searchBuilder.bootstrap4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-searchpanes/css/searchPanes.bootstrap4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-searchpanes/css/searchPanes.bootstrap4.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-searchpanes/js/dataTables.searchPanes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-searchpanes/js/dataTables.searchPanes.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-searchpanes/js/searchPanes.bootstrap4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-searchpanes/js/searchPanes.bootstrap4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-select/css/select.bootstrap4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-select/css/select.bootstrap4.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-select/js/dataTables.select.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-select/js/dataTables.select.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-select/js/select.bootstrap4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables-select/js/select.bootstrap4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables/jquery.dataTables.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/datatables/jquery.dataTables.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/daterangepicker/daterangepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/daterangepicker/daterangepicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/dropzone/basic.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/dropzone/dropzone-amd-module.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/dropzone/dropzone.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/dropzone/dropzone.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/dropzone/dropzone.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/dropzone/min/basic.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/dropzone/min/basic.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/dropzone/min/dropzone-amd-module.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/dropzone/min/dropzone.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/dropzone/min/dropzone.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/dropzone/min/dropzone.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/fontawesome-free/css/all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/fontawesome-free/css/all.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/fontawesome-free/css/brands.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/fontawesome-free/css/brands.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/fontawesome-free/css/fontawesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/fontawesome-free/css/fontawesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/fontawesome-free/css/regular.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/fontawesome-free/css/regular.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/fontawesome-free/css/solid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/fontawesome-free/css/solid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/fontawesome-free/css/svg-with-js.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/fontawesome-free/css/svg-with-js.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/fontawesome-free/css/v4-shims.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/fontawesome-free/css/v4-shims.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/fontawesome-free/webfonts/fa-brands-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/fontawesome-free/webfonts/fa-brands-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/fontawesome-free/webfonts/fa-brands-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/fontawesome-free/webfonts/fa-brands-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/fontawesome-free/webfonts/fa-brands-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/fontawesome-free/webfonts/fa-regular-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/fontawesome-free/webfonts/fa-regular-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/fontawesome-free/webfonts/fa-regular-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/fontawesome-free/webfonts/fa-regular-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/fontawesome-free/webfonts/fa-regular-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/fontawesome-free/webfonts/fa-solid-900.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/fontawesome-free/webfonts/fa-solid-900.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/fontawesome-free/webfonts/fa-solid-900.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/fontawesome-free/webfonts/fa-solid-900.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/fontawesome-free/webfonts/fa-solid-900.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/jquery-knob/jquery.knob.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/jquery-mapael/jquery.mapael.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/jquery-mapael/jquery.mapael.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/jquery-mapael/maps/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/jquery-mapael/maps/france_departments.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/jquery-mapael/maps/france_departments.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/jquery-mapael/maps/usa_states.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/jquery-mapael/maps/usa_states.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/jquery-mapael/maps/world_countries.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/jquery-mapael/maps/world_countries.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/jquery-mapael/maps/world_countries_mercator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/jquery-mapael/maps/world_countries_mercator.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/jquery-mapael/maps/world_countries_miller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/jquery-mapael/maps/world_countries_miller.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/jquery-mousewheel/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/jquery-mousewheel/jquery.mousewheel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/jquery/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/jquery/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/jquery/jquery.min.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/jquery/jquery.slim.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/jquery/jquery.slim.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/jquery/jquery.slim.min.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/overlayScrollbars/css/OverlayScrollbars.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/overlayScrollbars/css/OverlayScrollbars.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/overlayScrollbars/js/OverlayScrollbars.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/overlayScrollbars/js/OverlayScrollbars.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/overlayScrollbars/js/jquery.overlayScrollbars.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/popper/esm/popper-utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/popper/esm/popper-utils.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/popper/esm/popper-utils.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/popper/esm/popper-utils.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/popper/esm/popper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/popper/esm/popper.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/popper/esm/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/popper/esm/popper.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/popper/popper-utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/popper/popper-utils.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/popper/popper-utils.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/popper/popper-utils.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/popper/popper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/popper/popper.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/popper/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/popper/popper.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/popper/umd/popper-utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/popper/umd/popper-utils.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/popper/umd/popper-utils.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/popper/umd/popper-utils.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/popper/umd/popper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/popper/umd/popper.js.flow" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/popper/umd/popper.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/popper/umd/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/popper/umd/popper.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/select2-bootstrap4-theme/select2-bootstrap4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/select2/css/select2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/select2/css/select2.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/select2/js/i18n/af.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/select2/js/i18n/ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/select2/js/i18n/az.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/select2/js/i18n/bg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/select2/js/i18n/bn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/select2/js/i18n/bs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/select2/js/i18n/build.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/select2/js/i18n/ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/select2/js/i18n/cs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/select2/js/i18n/da.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/select2/js/i18n/de.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/select2/js/i18n/dsb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/select2/js/i18n/el.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/select2/js/i18n/en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/select2/js/i18n/es.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/select2/js/i18n/et.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/select2/js/i18n/eu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/select2/js/i18n/fa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/select2/js/i18n/fi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/select2/js/i18n/fr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/select2/js/i18n/gl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/select2/js/i18n/he.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/select2/js/i18n/hi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/select2/js/i18n/hr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/select2/js/i18n/hsb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/select2/js/i18n/hu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/select2/js/i18n/hy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/select2/js/i18n/id.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/select2/js/i18n/is.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/select2/js/i18n/it.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/select2/js/i18n/ja.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/select2/js/i18n/ka.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/select2/js/i18n/km.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/select2/js/i18n/ko.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/select2/js/i18n/lt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/select2/js/i18n/lv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/select2/js/i18n/mk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/select2/js/i18n/ms.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/select2/js/i18n/nb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/select2/js/i18n/ne.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/select2/js/i18n/nl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/select2/js/i18n/pl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/select2/js/i18n/ps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/select2/js/i18n/pt-BR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/select2/js/i18n/pt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/select2/js/i18n/ro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/select2/js/i18n/ru.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/select2/js/i18n/sk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/select2/js/i18n/sl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/select2/js/i18n/sq.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/select2/js/i18n/sr-Cyrl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/select2/js/i18n/sr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/select2/js/i18n/sv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/select2/js/i18n/th.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/select2/js/i18n/tk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/select2/js/i18n/tr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/select2/js/i18n/uk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/select2/js/i18n/vi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/select2/js/i18n/zh-CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/select2/js/i18n/zh-TW.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/select2/js/select2.full.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/select2/js/select2.full.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/select2/js/select2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/select2/js/select2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/font/summernote.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/font/summernote.hash" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/font/summernote.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/font/summernote.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/font/summernote.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-ar-AR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-ar-AR.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-ar-AR.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-ar-AR.min.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-az-AZ.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-az-AZ.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-az-AZ.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-az-AZ.min.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-bg-BG.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-bg-BG.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-bg-BG.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-bg-BG.min.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-bn-BD.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-bn-BD.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-bn-BD.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-ca-ES.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-ca-ES.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-ca-ES.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-ca-ES.min.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-cs-CZ.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-cs-CZ.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-cs-CZ.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-cs-CZ.min.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-da-DK.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-da-DK.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-da-DK.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-da-DK.min.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-de-CH.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-de-CH.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-de-CH.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-de-DE.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-de-DE.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-de-DE.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-de-DE.min.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-el-GR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-el-GR.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-el-GR.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-el-GR.min.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-en-US.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-en-US.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-en-US.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-es-ES.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-es-ES.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-es-ES.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-es-ES.min.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-es-EU.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-es-EU.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-es-EU.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-es-EU.min.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-fa-IR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-fa-IR.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-fa-IR.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-fa-IR.min.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-fi-FI.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-fi-FI.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-fi-FI.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-fi-FI.min.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-fr-FR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-fr-FR.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-fr-FR.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-fr-FR.min.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-gl-ES.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-gl-ES.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-gl-ES.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-gl-ES.min.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-he-IL.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-he-IL.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-he-IL.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-he-IL.min.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-hr-HR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-hr-HR.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-hr-HR.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-hr-HR.min.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-hu-HU.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-hu-HU.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-hu-HU.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-hu-HU.min.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-id-ID.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-id-ID.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-id-ID.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-id-ID.min.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-it-IT.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-it-IT.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-it-IT.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-it-IT.min.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-ja-JP.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-ja-JP.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-ja-JP.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-ja-JP.min.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-ko-KR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-ko-KR.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-ko-KR.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-ko-KR.min.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-lt-LT.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-lt-LT.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-lt-LT.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-lt-LT.min.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-lt-LV.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-lt-LV.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-lt-LV.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-lt-LV.min.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-mn-MN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-mn-MN.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-mn-MN.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-mn-MN.min.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-nb-NO.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-nb-NO.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-nb-NO.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-nb-NO.min.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-nl-NL.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-nl-NL.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-nl-NL.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-nl-NL.min.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-pl-PL.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-pl-PL.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-pl-PL.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-pl-PL.min.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-pt-BR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-pt-BR.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-pt-BR.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-pt-BR.min.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-pt-PT.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-pt-PT.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-pt-PT.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-pt-PT.min.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-ro-RO.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-ro-RO.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-ro-RO.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-ro-RO.min.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-ru-RU.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-ru-RU.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-ru-RU.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-ru-RU.min.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-sk-SK.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-sk-SK.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-sk-SK.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-sk-SK.min.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-sl-SI.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-sl-SI.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-sl-SI.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-sl-SI.min.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-sr-RS-Latin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-sr-RS-Latin.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-sr-RS-Latin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-sr-RS-Latin.min.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-sr-RS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-sr-RS.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-sr-RS.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-sr-RS.min.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-sv-SE.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-sv-SE.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-sv-SE.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-sv-SE.min.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-ta-IN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-ta-IN.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-ta-IN.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-ta-IN.min.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-th-TH.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-th-TH.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-th-TH.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-th-TH.min.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-tr-TR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-tr-TR.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-tr-TR.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-tr-TR.min.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-uk-UA.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-uk-UA.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-uk-UA.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-uk-UA.min.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-uz-UZ.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-uz-UZ.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-uz-UZ.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-uz-UZ.min.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-vi-VN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-vi-VN.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-vi-VN.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-vi-VN.min.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-zh-CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-zh-CN.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-zh-CN.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-zh-CN.min.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-zh-TW.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-zh-TW.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-zh-TW.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/lang/summernote-zh-TW.min.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/plugin/databasic/summernote-ext-databasic.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/plugin/databasic/summernote-ext-databasic.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/plugin/hello/summernote-ext-hello.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/plugin/specialchars/summernote-ext-specialchars.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/summernote-bs4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/summernote-bs4.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/summernote-bs4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/summernote-bs4.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/summernote-bs4.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/summernote-bs4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/summernote-bs4.min.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/summernote-bs4.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/summernote-bs5.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/summernote-bs5.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/summernote-bs5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/summernote-bs5.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/summernote-bs5.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/summernote-bs5.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/summernote-lite.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/summernote-lite.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/summernote-lite.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/summernote-lite.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/summernote-lite.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/summernote-lite.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/summernote-lite.min.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/summernote-lite.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/summernote.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/summernote.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/summernote.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/summernote.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/summernote.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/summernote.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/summernote.min.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/summernote/summernote.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/sweetalert2/sweetalert2.all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/sweetalert2/sweetalert2.all.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/sweetalert2/sweetalert2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/sweetalert2/sweetalert2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/sweetalert2/sweetalert2.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/sweetalert2/sweetalert2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/includes/functions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/log/php-error-2023-01-20.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/log/php-error-2023-01-25.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/tpl/login_tpl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Lessons.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lessons.iml" afterDir="false" />
+    <list default="true" id="3b5508e5-cb33-48e0-8261-09df5193ddc5" name="Changes" comment="10.03">
+      <change afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/tpl/category_edit_tpl.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/flag-icon-css/flags/1x1/ac.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/flag-icon-css/flags/1x1/ad.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/flag-icon-css/flags/4x3/ac.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/flag-icon-css/flags/4x3/ad.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/jquery-validation/additional-methods.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/jquery-validation/additional-methods.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/uplot/uPlot.cjs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/uplot/uPlot.esm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/uplot/uPlot.iife.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/uplot/uPlot.iife.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/assets/plugins/uplot/uPlot.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/includes/common.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/includes/common.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/includes/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/includes/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/tpl/index_tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/tpl/index_tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/includes/classes/Class.Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/includes/classes/Class.Category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/scripts/category.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/scripts/category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/tpl/testimonial_edit_tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/tpl/testimonial_edit_tpl.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -838,16 +40,18 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Tondiraba v2/htdocs/www" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/tpl" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/tpl" />
+      <recent name="$PROJECT_DIR$/Tondiraba v2/DB" />
+      <recent name="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/includes/classes" />
       <recent name="$PROJECT_DIR$/Tondiraba v2/htdocs/www" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/Tondiraba v1/htdocs" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Tondiraba v2/htdocs/www" />
@@ -902,7 +106,9 @@
       <workItem from="1674229471649" duration="5716000" />
       <workItem from="1674662016215" duration="15338000" />
       <workItem from="1675439356754" duration="1411000" />
-      <workItem from="1675440908120" duration="3453000" />
+      <workItem from="1675440908120" duration="4076000" />
+      <workItem from="1675871373237" duration="57660000" />
+      <workItem from="1678968358592" duration="1265000" />
     </task>
     <task id="LOCAL-00001" summary="ю">
       <created>1665155838441</created>
@@ -1079,7 +285,140 @@
       <option name="project" value="LOCAL" />
       <updated>1675442517652</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="27.01">
+      <created>1675444551034</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1675444551034</updated>
+    </task>
+    <task id="LOCAL-00027" summary="27.01">
+      <created>1675444617410</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1675444617410</updated>
+    </task>
+    <task id="LOCAL-00028" summary="27.01">
+      <created>1675444645693</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1675444645693</updated>
+    </task>
+    <task id="LOCAL-00029" summary="27.01">
+      <created>1675444758251</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1675444758251</updated>
+    </task>
+    <task id="LOCAL-00030" summary="27.01">
+      <created>1675871673236</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1675871673236</updated>
+    </task>
+    <task id="LOCAL-00031" summary="27.01">
+      <created>1675873855557</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1675873855557</updated>
+    </task>
+    <task id="LOCAL-00032" summary="27.01">
+      <created>1675874303687</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1675874303687</updated>
+    </task>
+    <task id="LOCAL-00033" summary="27.01">
+      <created>1675876165410</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1675876165410</updated>
+    </task>
+    <task id="LOCAL-00034" summary="08.02">
+      <created>1675878956690</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1675878956690</updated>
+    </task>
+    <task id="LOCAL-00035" summary="10.02">
+      <created>1676476076636</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1676476076636</updated>
+    </task>
+    <task id="LOCAL-00036" summary="15.02">
+      <created>1676482750227</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1676482750227</updated>
+    </task>
+    <task id="LOCAL-00037" summary="15.02">
+      <created>1676654034128</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1676654034128</updated>
+    </task>
+    <task id="LOCAL-00038" summary="22.02">
+      <created>1677081242747</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1677081242747</updated>
+    </task>
+    <task id="LOCAL-00039" summary="22.02">
+      <created>1677685714693</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1677685714693</updated>
+    </task>
+    <task id="LOCAL-00040" summary="01.03">
+      <created>1677858426581</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1677858426581</updated>
+    </task>
+    <task id="LOCAL-00041" summary="03.03">
+      <created>1677917211376</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1677917211376</updated>
+    </task>
+    <task id="LOCAL-00042" summary="08.03">
+      <created>1678462590711</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1678462590711</updated>
+    </task>
+    <task id="LOCAL-00043" summary="08.03">
+      <created>1678465383732</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1678465383732</updated>
+    </task>
+    <task id="LOCAL-00044" summary="10.03">
+      <created>1678557441867</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1678557441867</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1120,6 +459,14 @@
     <MESSAGE value="13.01" />
     <MESSAGE value="25.01" />
     <MESSAGE value="27.01" />
-    <option name="LAST_COMMIT_MESSAGE" value="27.01" />
+    <MESSAGE value="08.02" />
+    <MESSAGE value="10.02" />
+    <MESSAGE value="15.02" />
+    <MESSAGE value="22.02" />
+    <MESSAGE value="01.03" />
+    <MESSAGE value="03.03" />
+    <MESSAGE value="08.03" />
+    <MESSAGE value="10.03" />
+    <option name="LAST_COMMIT_MESSAGE" value="10.03" />
   </component>
 </project>
