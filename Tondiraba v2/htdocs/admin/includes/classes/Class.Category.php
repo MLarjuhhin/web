@@ -6,8 +6,22 @@ Class Category{
 
 		return $category;
 	}
-	public static function getCategoryByID(MySQL $DB,$id,$row=false){
+	public static function getCategoryByID(MySQL $DB,$id=false,$row=false){
+		if(empty($id)){
+			return false;
+		}else{
+			$data=$DB->FQuery("SELECT * FROM category where id=?",[$id]);
 
+			if(!empty($data)){
+				if ($row){
+					return $data[$row];
+				}else{
+					return $data;
+				}
+			}else{
+				return false;
+			}
+		}
 	}
 	public static function save(MySQL $DB,$data){
 		$defaults = $DB->AllRows("SHOW COLUMNS FROM category");

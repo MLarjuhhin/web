@@ -19,8 +19,6 @@ if(empty($modulePage1)) {
 	}
 }elseif($modulePage1=='edit' && is_numeric($modulePage2)){
 	$Update = $DB->FQuery("SELECT * FROM testimonial where id=?",[$modulePage2]);
-	//TODO: refresh if empty
-
 	if (empty($Update)) {
 
 		$_SESSION['error']='ура!!!! такой ид НЕТ!!!!';
