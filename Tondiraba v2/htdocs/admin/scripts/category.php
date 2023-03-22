@@ -1,38 +1,44 @@
 <?php
-if($modulePage2=='add' || ($modulePage2=='edit' && is_numeric($modulePage3))){
-	$url=false;
+if ($modulePage2 == 'add' || ($modulePage2 == 'edit' && is_numeric($modulePage3))) {
+	$url = false;
 	//SELECT
-
-		$Update = Category::getCategoryByID($DB,$modulePage3);
-
+	$Update = Category::getCategoryByID($DB, $modulePage3);
 	//$POST
-	if($_POST['act']=='add_category' || $_POST['act']=='edit_category') {
+	if ($_POST['act'] == 'add_category' || $_POST['act'] == 'edit_category') {
 		$category_data = [
 			'name' => $_POST['name_category'],
 		];
 		if ($_POST['act'] == 'add_category') {
 			$category_data['date_add'] = $DB->time();
 
-			$url='/'.$modulePage0."/".$modulePage1;
+			$url = '/'.$modulePage0."/".$modulePage1;
 
 		} elseif ($_POST['act'] == 'edit_category') {
 			$category_data['id'] = $modulePage3;
-			$category_data['edit_add'] = $DB->time();
+			$category_data['date_edit'] = $DB->time();
 		}
-
 		if (Category::save($DB, $category_data)) {
 			$_SESSION['success'] = 'ok';
 		} else {
 			//mail('infojuht@tondiraba.edu.com','category_add_error',print_r([$_POST,$_SESSION,$category_data],true));
 			$_SESSION['error'] = 'error';
 		}
-
 		refreshPage($url);
 	}
+} elseif ($modulePage2 == 'delete' && is_numeric($modulePage3)) {
+	$category_data['date_delete'] = $DB->time();
+	$category_data['id'] = $modulePage3;
 
+	$url = '/'.$modulePage0."/".$modulePage1;
 
+	if (Category::save($DB, $category_data)) {
+		$_SESSION['success'] = 'ok';
+	} else {
+		//mail('infojuht@tondiraba.edu.com','category_add_error',print_r([$_POST,$_SESSION,$category_data],true));
+		$_SESSION['error'] = 'error';
+	}
 
+	refreshPage($url);
 
-}elseif($modulePage2=='delete'){
 
 }
