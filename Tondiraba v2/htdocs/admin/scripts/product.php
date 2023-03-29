@@ -1,11 +1,12 @@
 <?php
+dd($_POST);
 
 if ($modulePage2 == 'add' || ($modulePage2 == 'edit' && is_numeric($modulePage3)) || ($modulePage2 == 'delete' && is_numeric($modulePage3))) {
 	$url = false;
 	//SELECT
 	$Update = Product::getProductByID($DB, $modulePage3);
 	//$POST
-	if ($_POST['act'] == 'add_product' || $_POST['act'] == 'edit_product') {
+	if ($_POST['act'] == 'add_product' || $_POST['act'] == 'edit_product' || $_POST['act'] == 'delete_product') {
 		$product_data = [
 			'name' => $_POST['name_product'],
 		];

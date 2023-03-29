@@ -29,12 +29,13 @@ if ($modulePage2 == 'add' || $modulePage2 == 'edit') {
 							<td>
 								<form action="/menu/product/delete/<?= $v['id'] ?>" method="post" id="delete_product_<?= $v['id'] ?>">
 
-									<input type="submit" class="btn btn-danger" value="Delete"
+									<input type="submit" class="btn btn-danger" value="Delete" name="btn"
 										   onclick="if(!confirm('Уверены?')) {
 											   return false;
 											   }else{
 											   document.getElementById('delete_product_<?= $v['id'] ?>').submit(); return false;
 											   }">
+                                    <input type="text" value="asdasd" name="test">
 								</form>
 							</td>
 						</tr>
