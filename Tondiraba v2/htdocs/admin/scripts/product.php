@@ -1,5 +1,4 @@
 <?php
-dd($_POST);
 
 if ($modulePage2 == 'add' || ($modulePage2 == 'edit' && is_numeric($modulePage3)) || ($modulePage2 == 'delete' && is_numeric($modulePage3))) {
 	$url = false;
