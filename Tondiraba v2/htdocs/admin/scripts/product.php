@@ -11,13 +11,12 @@ if ($modulePage2 == 'add' || ($modulePage2 == 'edit' && is_numeric($modulePage3)
 		];
 		if ($_POST['act'] == 'add_product') {
 			$product_data['date_add'] = $DB->time();
-
 			$url = '/'.$modulePage0."/".$modulePage1;
-
 		} elseif ($_POST['act'] == 'edit_product') {
 			$product_data['id'] = $modulePage3;
 			$product_data['date_edit'] = $DB->time();
-		}elseif($_POST['act'] == 'delete_product'){
+		} elseif ($_POST['act'] == 'delete_product') {
+
 			$product_data['date_delete'] = $DB->time();
 			$product_data['id'] = $modulePage3;
 			$url = '/'.$modulePage0."/".$modulePage1;
@@ -30,4 +29,3 @@ if ($modulePage2 == 'add' || ($modulePage2 == 'edit' && is_numeric($modulePage3)
 		refreshPage($url);
 	}
 }
-

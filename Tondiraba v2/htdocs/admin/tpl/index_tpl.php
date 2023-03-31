@@ -103,6 +103,11 @@
                                     <i class="far fa-circle nav-icon"></i>
                                     <p>Продукты</p></a>
                             </li>
+                            <li class="nav-item">
+                                <a href="/menu/list_dishes.html" class="nav-link ">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>Список блюд</p></a>
+                            </li>
                         </ul>
                     </li>
                 </ul>
