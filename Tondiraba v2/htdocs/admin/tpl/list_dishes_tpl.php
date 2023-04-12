@@ -30,7 +30,7 @@ if ($modulePage2 == 'add' || $modulePage2 == 'edit') {
 							<td><a href="/menu/list_dishes/edit/<?= $v['id'] ?>" class="btn btn-warning">Обновить</a></td>
 							<td>
 								<form action="/menu/list_dishes/delete/<?= $v['id'] ?>" method="post" id="delete_list_dishes_<?= $v['id'] ?>">
-									<input type="hidden" name="act" value="delete_list_dishes">
+									<input type="hidden" name="act" value="delete_dish">
 									<input type="submit" class="btn btn-danger" value="Delete" name="btn"
 										   onclick="if(!confirm('Уверены?')) {
 											   return false;

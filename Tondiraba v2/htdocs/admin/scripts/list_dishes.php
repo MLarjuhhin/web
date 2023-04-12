@@ -23,6 +23,7 @@ if ($modulePage2 == 'add' || ($modulePage2 == 'edit' && is_numeric($modulePage3)
 			$dish_data['id'] = $modulePage3;
 			$url = '/'.$modulePage0."/".$modulePage1;
 		}
+
 		if (ListDishes::save($DB, $dish_data)) {
 			$_SESSION['success'] = 'ok';
 		} else {
