@@ -5,6 +5,7 @@ if ($modulePage2 == 'add' || ($modulePage2 == 'edit' && is_numeric($modulePage3)
 	$url = false;
 	//SELECT
 	$Update = ListDishes::getDishByID($DB, $modulePage3);
+	$Product= Product::getProductList($DB);
 	//$POST
 	if ($_POST['act'] == 'add_dish' || $_POST['act'] == 'edit_dish' || $_POST['act'] == 'delete_dish') {
 		$dish_data = [

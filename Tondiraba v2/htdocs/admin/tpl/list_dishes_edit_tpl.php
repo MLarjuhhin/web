@@ -27,6 +27,22 @@
 						<input type="text" name="price_dish" id="price" class="form-control" value="<?=(isset($Update['price'])?$Update['price']:$_POST['price_dish'])?>">
 					</div>
 				</div>
+
+                <!-- Multiple -->
+                <div class="form-group row ">
+                    <label class="control-label col-md-4" id="product">Продукты</label>
+                    <div class="col-md-6">
+                        <select class="select2" multiple="multiple" id="product" data-placeholder="Выбери продукты..." style="width: 100%;">
+
+							<? foreach ($Product as $k => $v) { ?>
+                                <option value="<?= $v['id'] ?>"><?= $v['name'] ?></option>
+							<? } ?>
+
+
+                        </select>
+                    </div>
+                </div>
+
 				<input type="hidden" name="act" value="<?=$modulePage2?>_dish">
 				<?
 				if($modulePage2=='edit'){
