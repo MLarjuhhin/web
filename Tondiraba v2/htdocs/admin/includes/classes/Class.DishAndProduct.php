@@ -17,6 +17,13 @@ class DishAndProduct
 		$old_data = $DB->AllRows("SELECT * FROM dish_and_product WHERE dish_id=? and date_delete is null", [$dish_id]);
 		// удаляем старые записи
 		foreach ($old_data as $v) {
+			if(in_array($v['product_id'],$product)){
+				//находим ключ
+				$key=array_search($v['product_id'],$product);
+				//удаляем те значения которые не изменились
+				unset($product[$key]);
+				continue;
+			}
 			$DB->Update("dish_and_product", ['date_delete' => $DB->time()], ' where id='.$v['id']);
 		}
 		// добавляем новые
