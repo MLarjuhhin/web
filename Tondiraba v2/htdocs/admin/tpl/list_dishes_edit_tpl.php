@@ -32,7 +32,7 @@
                 <div class="form-group row ">
                     <label class="control-label col-md-4" id="product">Продукты</label>
                     <div class="col-md-6">
-                        <select class="select2" multiple="multiple" id="product" data-placeholder="Выбери продукты..." style="width: 100%;">
+                        <select class="select2_dish_and_product" multiple="multiple" id="product" name="product[]" data-placeholder="Выбери продукты..." style="width: 100%;">
 
 							<? foreach ($Product as $k => $v) { ?>
                                 <option value="<?= $v['id'] ?>"><?= $v['name'] ?></option>

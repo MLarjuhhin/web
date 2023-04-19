@@ -164,7 +164,13 @@
 <script src="<?= $conf['web_url']; ?>/assets/js/adminlte.min.js"></script>
 <script>
     //Initialize Select2 Elements
-    $('.select2').select2();
+    $('.select2_dish_and_product').select2();
+
+    //адресс
+    $(document).ready(function () {
+        $('.select2_dish_and_product').val(<?=$DishAndProduct?>);
+        $('.select2_dish_and_product').trigger('change');
+    });
 </script>
 </body>
 

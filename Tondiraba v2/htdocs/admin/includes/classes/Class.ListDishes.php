@@ -49,8 +49,14 @@ Class ListDishes{
 			$insert_data['date_add']=$DB->time();
 			$res=$DB->Insert('dish',$insert_data);
 			$id=$DB->getInsertID();
+			if($id && is_numeric($id)){
+				DishAndProduct::save($DB,$id,$data['product']);
+			}
 		}else{
 			$res=$DB->Update('dish',$insert_data,' where id='.$data['id']);
+			if ($res===true){
+				DishAndProduct::save($DB,$data['id'],$data['product']);
+			}
 		}
 
 		if($res){

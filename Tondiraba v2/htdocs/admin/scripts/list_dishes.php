@@ -6,11 +6,15 @@ if ($modulePage2 == 'add' || ($modulePage2 == 'edit' && is_numeric($modulePage3)
 	//SELECT
 	$Update = ListDishes::getDishByID($DB, $modulePage3);
 	$Product= Product::getProductList($DB);
+	$DishAndProduct= DishAndProduct::getDishAndProductForSelect($DB,$modulePage3);
+
 	//$POST
 	if ($_POST['act'] == 'add_dish' || $_POST['act'] == 'edit_dish' || $_POST['act'] == 'delete_dish') {
+
 		$dish_data = [
 			'name' => $_POST['name_dish'],
 			'price' => $_POST['price_dish'],
+			'product'=>$_POST['product'],
 		];
 		if ($_POST['act'] == 'add_dish') {
 			$dish_data['date_add'] = $DB->time();
