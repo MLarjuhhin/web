@@ -15,6 +15,10 @@
 						<td><input type="text" class="form-control" name="text_search_rus"></td>
 					</tr>
 					<tr>
+						<th>SLUG</th>
+						<td><input type="text" class="form-control" name="text_search_slug"></td>
+					</tr>
+					<tr>
 						<td><input type="submit" class="btn btn-success btn-sm"></td>
 					</tr>
 				</table>
@@ -34,7 +38,11 @@
 				<table>
 					<tr>
 						<th>Текст на русском</th>
-						<td><textarea name="text_rus" class="form-control"  id="" cols="60" rows="10"></textarea></td>
+						<td><textarea name="text_rus" class="form-control"  id="" cols="60" rows="10"><?=$language['rus']?></textarea></td>
+					</tr>
+					<tr>
+						<th>SLUG</th>
+						<td><input type="text" class="form-control" name="slug" value="<?=$language['slug']?>"></td>
 					</tr>
 					<tr>
 						<td>
