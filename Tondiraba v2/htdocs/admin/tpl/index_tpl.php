@@ -79,7 +79,7 @@
                             <i class=" nav-icon fas fa-info"></i>
 
                             <p>
-                                Info
+                                Инфо
                             </p>
                         </a>
                     </li>
@@ -88,7 +88,7 @@
                            class="nav-link <?= ($modulePage0 == 'testimonial') ? 'active' : '' ?>">
                             <i class=" nav-icon fas fa-list"></i>
                             <p>
-                                TESTIMONIAL
+                                Отзывы
                             </p>
                         </a>
                     </li>
@@ -96,7 +96,7 @@
                         <a href="/menu.html" class="nav-link <?= ($modulePage0 == 'menu') ? 'active' : '' ?>">
                             <i class=" nav-icon fas fa-store"></i>
                             <p>
-                                MENU
+                                Еда
                             </p>
                         </a>
                         <ul class="nav nav-treeview" style="display: none;">
@@ -113,9 +113,18 @@
                             <li class="nav-item">
                                 <a href="/menu/list_dishes.html" class="nav-link ">
                                     <i class="far fa-circle nav-icon"></i>
-                                    <p>Список блюд</p></a>
+                                    <p>Меню</p></a>
                             </li>
                         </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/text.html"
+                           class="nav-link <?= ($modulePage0 == 'text') ? 'active' : '' ?>">
+                            <i class=" nav-icon fas fa-list"></i>
+                            <p>
+                                Текст
+                            </p>
+                        </a>
                     </li>
                 </ul>
             </nav>
