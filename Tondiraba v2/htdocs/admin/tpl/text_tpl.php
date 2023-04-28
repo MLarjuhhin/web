@@ -15,11 +15,14 @@
 						<td><input type="text" class="form-control" name="text_search_rus"></td>
 					</tr>
 					<tr>
-						<th>SLUG</th>
+						<th><?=text('slug')?></th>
 						<td><input type="text" class="form-control" name="text_search_slug"></td>
 					</tr>
 					<tr>
-						<td><input type="submit" class="btn btn-success btn-sm"></td>
+						<td>
+                            <input type="hidden" name="act" value="search">
+                            <input type="submit" class="btn btn-success btn-sm">
+                        </td>
 					</tr>
 				</table>
 			</form>
@@ -42,7 +45,7 @@
 					</tr>
 					<tr>
 						<th>SLUG</th>
-						<td><input type="text" class="form-control" name="slug" value="<?=$language['slug']?>"></td>
+						<td><input type="text" class="form-control" name="slug" value="<?=$language['slug']?>" <?=($submit_form=='edit')?'disabled':''?>></td>
 					</tr>
 					<tr>
 						<td>
