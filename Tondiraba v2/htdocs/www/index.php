@@ -77,6 +77,7 @@ echo "<div style='margin-left: 100px'><hr>";
 print_rf($CHECK);
 print_rf(['include'=>$include]);
 print_rf(['SESSON'=>$_SESSION]);
+print_rf(['conf'=>$conf]);
 echo "</div>";
 
 
