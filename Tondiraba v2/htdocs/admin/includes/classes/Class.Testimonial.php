@@ -33,4 +33,30 @@ Class Testimonial{
 			return false;
 		}
 	}
+
+
+	public static function WWW_get_testimonial_list(MySQL $DB){
+		$rowArray=['name','profession','description','img_id'];
+		$row=implode(',',$rowArray);
+		$data=$DB->AllRows("SELECT $row FROM testimonial where date_delete is null");
+
+		return $data;
+	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
