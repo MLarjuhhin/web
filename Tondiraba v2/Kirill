@@ -1,0 +1,53 @@
+if ($_POST['act']=='registration'){
+	$error=[];
+	if(empty($_POST['f_name'])){
+		$error[]='Поле "имя" пустое';
+	}elseif(strlen($_POST['f_name'])<=2){
+		$error[]='Поле имя должно быть длинне 2х символов';
+	}
+	if(empty($_POST['l_name'])){
+		$error[]='Поле "фамилия" пустое';
+	}elseif(strlen($_POST['l_name'])<=2){
+		$error[]='Поле имя должно быть длинне 2х символов';
+	}
+	if(empty($_POST['isikukood'])){
+		$error[]='Поле "isikukood" пустое';
+	}elseif(!is_numeric($_POST['isikukood'])){
+		$error[]='Поле isikukood должно быть только из цифр';
+	}elseif(strlen($_POST['isikukood'])!=11){
+		$error[]='Длинна поля isikukood должна быть равна 11';
+	}
+
+	if (empty($_POST['email'])){
+		$error[]='Поле "email" пустое';
+	}elseif (!filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
+		$error[]='Не верный е-мейл';
+	}
+	if (empty($_POST['phone'])){
+		$error[]='Поле "phone" пустое';
+	}elseif (strlen($_POST['phone'])<5) {
+		$error[]='минимально должно быть 5 символов';
+	} elseif (strlen($_POST['phone'])>10) {
+		$error[]='максимально должно быть 10 символов';
+	} elseif (!is_numeric($_POST['phone'])){
+		$error[]='Поле phone должно быть только из цифр';
+	}
+	if(!empty($error)){
+		$_SESSION['error']=$error;
+	}else{
+		$insert=[
+			'first_name'=>$_POST['f_name'],
+			'last_name'=>$_POST['l_name'],
+			'isikukood'=>$_POST['isikukood'],
+			'email'=>$_POST['email'],
+			'phone'=>$_POST['phone'],
+
+		];
+		$res=$DB->Insert('users',$insert);
+		if($res){
+			$success='Регистрация удалась';
+		}else{
+			$error[]='регистрация не удалась+(';
+		}
+	}
+}

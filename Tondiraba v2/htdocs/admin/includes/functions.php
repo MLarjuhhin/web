@@ -45,7 +45,7 @@ function text($slug)
 	}
 	$out = $ALL_TEXT[$lang][$slug];
 
-	return $out;
+	return (empty($out))?$slug:$out;
 
 
 }
