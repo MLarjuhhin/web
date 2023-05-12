@@ -36,9 +36,11 @@ Class Subscribe{
 
 			if($this->coupons){
 				$date_expired = date('Y-m-d H:i:s', strtotime(date('Y-m-d') . ' + 6 days'));
-				$add_data[]=['date_expired'=>$date_expired];
-				$add_data[]=['code'=>$this->coupons];
-				$res1=$this->DB->Insert('coupons',$add_data);
+				$add_data_coupons=$add_data;
+				$add_data_coupons['date_expired']=$date_expired;
+				$add_data_coupons['code']=$this->coupons;
+
+				$res1=$this->DB->Insert('coupons',$add_data_coupons);
 				if(!$res1){
 					$this->error[]='Не удалось сохранить в базу данных _coupons';
 				}
