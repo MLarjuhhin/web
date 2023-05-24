@@ -2,7 +2,10 @@
 if(!empty($_POST)){
 	if($_POST['act']=='add_subscribe'){
 		$subscribe=new Subscribe($DB,$_POST['email'],false);
-		$subscribe->save();
+		$subscribe
+			->validate()
+			->issetEmail()
+			->save();
 		if ($subscribe->error) {
 			$_SESSION['error']=$subscribe->error;
 		}else{

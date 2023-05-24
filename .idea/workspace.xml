@@ -3,8 +3,26 @@
   <component name="ChangeListManager">
     <list default="true" id="3b5508e5-cb33-48e0-8261-09df5193ddc5" name="Changes" comment=".">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/includes/classes/Class.Testimonial.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/includes/classes/Class.Testimonial.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/tpl/avaleht_tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/tpl/avaleht_tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/includes/classes/Class.Subscribe.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/includes/classes/Class.Subscribe.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/main_template/img/about.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/main_template/img/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/main_template/img/carousel-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/main_template/img/carousel-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/main_template/img/menu-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/main_template/img/menu-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/main_template/img/menu-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/main_template/img/overlay-bottom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/main_template/img/overlay-top.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/main_template/img/service-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/main_template/img/service-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/main_template/img/service-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/main_template/img/service-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/main_template/img/testimonial-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/main_template/img/testimonial-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/main_template/img/testimonial-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/main_template/img/testimonial-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scripts/avaleht.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/scripts/avaleht.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/tpl/index_tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tondiraba v2/htdocs/www/tpl/index_tpl.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,18 +56,18 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Tondiraba v2/htdocs/www/assets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Kirill" />
+      <recent name="$PROJECT_DIR$/Kirill/htdocs" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Tondiraba v2/htdocs/www/assets" />
       <recent name="$PROJECT_DIR$/Tondiraba v2/htdocs/www" />
-      <recent name="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/includes/classes" />
-      <recent name="$PROJECT_DIR$/Tondiraba v2/DB" />
-      <recent name="$PROJECT_DIR$/Tondiraba v2/htdocs/admin/scripts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Tondiraba v2/htdocs/www/main_template" />
@@ -114,42 +132,9 @@
       <workItem from="1680625188518" duration="10000" />
       <workItem from="1680706271384" duration="5559000" />
       <workItem from="1680845022179" duration="1551000" />
-      <workItem from="1681310344191" duration="37829000" />
-    </task>
-    <task id="LOCAL-00018" summary="27.01">
-      <created>1675440494961</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1675440494961</updated>
-    </task>
-    <task id="LOCAL-00019" summary="27.01">
-      <created>1675440522943</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1675440522943</updated>
-    </task>
-    <task id="LOCAL-00020" summary="27.01">
-      <created>1675440562396</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1675440562396</updated>
-    </task>
-    <task id="LOCAL-00021" summary="27.01">
-      <created>1675440975638</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1675440975638</updated>
-    </task>
-    <task id="LOCAL-00022" summary="27.01">
-      <created>1675441022077</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1675441022077</updated>
+      <workItem from="1681310344191" duration="50579000" />
+      <workItem from="1683922288411" duration="4000" />
+      <workItem from="1684940994276" duration="124000" />
     </task>
     <task id="LOCAL-00023" summary="27.01">
       <created>1675441658779</created>
@@ -459,7 +444,42 @@
       <option name="project" value="LOCAL" />
       <updated>1683129373621</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary=".">
+      <created>1683300470242</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1683300470242</updated>
+    </task>
+    <task id="LOCAL-00068" summary=".">
+      <created>1683735840421</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1683735840421</updated>
+    </task>
+    <task id="LOCAL-00069" summary=".">
+      <created>1683903466907</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1683903466907</updated>
+    </task>
+    <task id="LOCAL-00070" summary=".">
+      <created>1683906714057</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1683906714057</updated>
+    </task>
+    <task id="LOCAL-00071" summary=".">
+      <created>1683907207904</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1683907207904</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

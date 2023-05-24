@@ -26,6 +26,14 @@ Class Subscribe{
 		}
 		return $this;
 	}
+
+	function issetEmail(){
+		$isset=$this->DB->FQuery("SELECT * FROM subscribe where email like ?",['%'.$this->email.'%']);
+		if(!empty($isset)){
+			$this->error[]='е-мейд существует';
+		}
+		return $this;
+	}
 	function save(){
 
 		if(empty($this->error)){

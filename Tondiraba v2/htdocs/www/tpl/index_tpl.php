@@ -45,6 +45,21 @@
             </div>
         </div>
     </nav>
+
+	<? if (!empty($data['error'])) { ?>
+        <div class="alert alert-danger" role="alert">
+			<?= showArray($data['error']) ?>
+
+        </div>
+		<?
+	} ?>
+	<?
+	if (!empty($data['success'])) { ?>
+        <div class="alert alert-success" role="alert">
+			<?= showArray($data['success']) ?>
+        </div>
+		<?
+	} ?>
 </div>
 <!-- Navbar End -->
 
