@@ -21,22 +21,19 @@
         <?
 		$x = 1;
 		foreach ($dish as $k => $v){
-		if ($x == 1){
-		?>
-        <div class='row'><? } ?>
+		    if ($x == 1){?><div class='row'><? } ?>
             <div class='col-lg-6'>
-                <h1 class="mb-5"><?= $k ?></h1>
+                <h1 class="mb-5"><?=  Category::getCategoryByID($DB,$k,'name') ?></h1>
 				<? foreach ($v as $k1 => $v2) {
 					?>
                     <div class="row align-items-center mb-5">
                         <div class="col-4 col-sm-3">
-                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-3.jpg" alt="">
-                            <h5 class="menu-price"><?= $v2['price'] ?></h5>
+                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-<?=rand(1,3)?>.jpg" alt="">
+                            <h5 class="menu-price"><?= $v2['price'] ?>&euro;</h5>
                         </div>
                         <div class="col-8 col-sm-9">
                             <h4><?= $v2['name'] ?></h4>
-                            <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem
-                                dolor</p>
+                            <p class="m-0"><?=DishAndProduct::getProductsForDish($DB,$v2['id'])?></p>
                         </div>
                     </div>
 				<? } ?>

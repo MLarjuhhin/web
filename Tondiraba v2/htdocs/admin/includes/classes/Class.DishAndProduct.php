@@ -49,5 +49,15 @@ class DishAndProduct
 		}
 	}
 
+	public static  function getProductsForDish($DB,$id){
+		$product=self::getDishAndProductForSelect($DB,$id);
+		$products=json_decode($product,true);
 
+		foreach ($products as $k=>$v){
+			$Query=$DB->Fquery("SELECT * FROM product where id=?",[$v]);
+			$ret[]=$Query['name'];
+		}
+
+		return implode(',',$ret);
+	}
 }
