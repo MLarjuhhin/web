@@ -13,6 +13,19 @@
 		</div>
 		<div class="card-body">
 			<form method="post">
+
+                <!-- Category -->
+                <div class="form-group row ">
+                    <label class="control-label col-md-4" id="category">Категория </label>
+                    <div class="col-md-6">
+                        <select class="select2_category"  id="category" name="category_id" data-placeholder="Выбери категорию..." style="width: 100%;">
+							<? foreach ($Category as $k => $v) { ?>
+                                <option value="<?= $v['id'] ?>"><?= $v['name'] ?></option>
+							<? } ?>
+                        </select>
+                    </div>
+                </div>
+
 				<!-- name -->
 				<div class="form-group row ">
 					<label class="control-label col-md-4" id="name">Название</label>

@@ -66,5 +66,11 @@ Class ListDishes{
 		}
 
 	}
+	public static function getCategoryForSelect(MySQL $DB, $id)
+	{
+		$dishProduct = $DB->FQuery("SELECT * FROM dish WHERE id=?", [$id]);
 
+		return $dishProduct['category_id'];
+
+	}
 }

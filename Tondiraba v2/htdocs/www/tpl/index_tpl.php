@@ -26,7 +26,6 @@
 	<link href="assets/css/style.min.css" rel="stylesheet">
 </head>
 <body>
-
 <!-- Navbar Start -->
 <div class="container-fluid p-0 nav-bar">
     <nav class="navbar navbar-expand-lg bg-none navbar-dark py-3">
@@ -38,16 +37,16 @@
         </button>
         <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
             <div class="navbar-nav ml-auto p-4">
-                <a href="/" class="nav-item nav-link active">Home</a>
-                <a href="menu.html" class="nav-item nav-link">Menu</a>
-                <a href="reservation.html" class="nav-item nav-link">Reservation</a>
-                <a href="contact.html" class="nav-item nav-link">Contact</a>
+                <a href="/" class="nav-item nav-link <?=$modulePage0=='avaleht'?'active':''?>">Home</a>
+                <a href="menu" class="nav-item nav-link <?=$modulePage0=='menu'?'active':''?>">Menu</a>
+                <a href="reservation" class="nav-item nav-link <?=$modulePage0=='reservation'?'active':''?>">Reservation</a>
+                <a href="contact" class="nav-item nav-link <?=$modulePage0=='contact'?'active':''?>">Contact</a>
             </div>
         </div>
     </nav>
 
 	<? if (!empty($data['error'])) { ?>
-        <div class="alert alert-danger" role="alert">
+        <div class="alert alert-danger" role="alert" id="myAlert">
 			<?= showArray($data['error']) ?>
 
         </div>
@@ -55,7 +54,7 @@
 	} ?>
 	<?
 	if (!empty($data['success'])) { ?>
-        <div class="alert alert-success" role="alert">
+        <div class="alert alert-success" role="alert" id="myAlert">
 			<?= showArray($data['success']) ?>
         </div>
 		<?
@@ -91,6 +90,15 @@
 
 <!-- Template Javascript -->
 <script src="assets/js/main.js"></script>
+
+<script>
+    $(document).ready(function() {
+        setTimeout(function() {
+            $('#myAlert').fadeOut();
+        }, 10000);
+    });
+
+</script>
 </body>
 
 </html>

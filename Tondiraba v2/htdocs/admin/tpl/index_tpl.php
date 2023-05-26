@@ -174,11 +174,16 @@
 <script>
     //Initialize Select2 Elements
     $('.select2_dish_and_product').select2();
+    $('.select2_category').select2();
 
     //адресс
     $(document).ready(function () {
         $('.select2_dish_and_product').val(<?=$DishAndProduct?>);
         $('.select2_dish_and_product').trigger('change');
+
+
+        $('.select2_category').val(<?=$SelectedCategory?>);
+        $('.select2_category').trigger('change');
     });
 </script>
 </body>

@@ -15,10 +15,11 @@ Class Subscribe{
 		$this->DB=$DB;
 		$this->coupons=$coupons;
 
-		$this->validate();
+//		$this->validate();
 		$this->getCouponsCode();
 
 	}
+
 
 	function validate(){
 		if (!filter_var($this->email, FILTER_VALIDATE_EMAIL)) {
@@ -34,6 +35,7 @@ Class Subscribe{
 		}
 		return $this;
 	}
+
 	function save(){
 
 		if(empty($this->error)){
@@ -60,6 +62,7 @@ Class Subscribe{
 		}
 		return $this;
 	}
+
 	private function getCouponsCode(){
 
 			$characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
