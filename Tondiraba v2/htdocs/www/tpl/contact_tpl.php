@@ -45,29 +45,29 @@
 			<div class="col-md-6 pb-5">
 				<div class="contact-form" >
 					<div id="success"></div>
-					<form name="sentMessage" id="contactForm" >
+					<form name="sentMessage" id="contactForm" method="post" >
 						<div class="control-group">
-							<input type="text" class="form-control bg-transparent p-4" id="name" placeholder="Your Name"
+							<input type="text" class="form-control bg-transparent p-4" name="name" placeholder="Your Name"
 								   required="required" >
 							<p class="help-block text-danger"></p>
 						</div>
 						<div class="control-group">
-							<input type="email" class="form-control bg-transparent p-4" id="email" placeholder="Your Email"
+							<input type="email" class="form-control bg-transparent p-4" name="email" placeholder="Your Email"
 								   required="required" />
 							<p class="help-block text-danger"></p>
 						</div>
 						<div class="control-group">
-							<input type="text" class="form-control bg-transparent p-4" id="subject" placeholder="Subject"
+							<input type="text" class="form-control bg-transparent p-4" name="subject" placeholder="Subject"
 								   required="required" />
 							<p class="help-block text-danger"></p>
 						</div>
 						<div class="control-group">
-                                <textarea class="form-control bg-transparent py-3 px-4" rows="5" id="message" placeholder="Message"
+                                <textarea class="form-control bg-transparent py-3 px-4" rows="5" name="message" placeholder="Message"
 										  required="required"></textarea>
 							<p class="help-block text-danger"></p>
 						</div>
 						<div>
-							<button class="btn btn-primary font-weight-bold py-3 px-5" type="submit" id="sendMessageButton">Send
+							<button class="btn btn-primary font-weight-bold py-3 px-5" type="submit" name="sendMessageButton">Send
 								Message</button>
 						</div>
 					</form>
